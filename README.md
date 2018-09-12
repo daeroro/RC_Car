@@ -39,6 +39,9 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Week Mission|4th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_4.pdf)|
 |Week Mission|5th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_5.pdf)|
 |Week Mission|6th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_6.pdf)|
+|Week Mission|7th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_7.pdf)|
+|Week Mission|8th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_8.pdf)|
+|Week Mission|9th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_9.pdf)|
 |Design|Full Architecture|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/Full_Architecture.pdf)|
 |Design|Lidar Signal Processing Design|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/Lidar_Signal_Processing_Design.pdf)|
 |DSP|AM5728 FTDI USB 2 CAN|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_FTDI_USB_2_CAN.pdf)|
@@ -84,6 +87,15 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |DSP|How to make AM5728 Matrix App(Wi-Fi)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_make_AM5728_Matrix_App(Wi-Fi).pdf)|
 |DSP|TIDL Basics Translation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TIDL_Translation.pdf)|
 |DSP|TIDL API User Guide Translation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TIDL_API_User_Guide_Translation.pdf)|
+|DSP & FPGA|DSP & FPGA Socket Environment Setting|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/DSPnFPGA_Socket_Communication.pdf)|
+|Design|Server Design Documentation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/Server_Design.pdf)|
+|PCB|Interlocked with OrCAD & Altium Designer|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/Interlocked_with_OrCAD_n_Altium_Designer.pdf)|
+|PCB|Altium Designer Basics I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/Altium_Basics_I.pdf)|
+|PCB|Altium Designer Basics II|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/Altium_Basics_II.pdf)|
+|FPGA|How to commit FPGA PetaLinux|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_commit_FPGA_Petalinux_Project.pdf)|
+|PCB|High Voltage Gate Driver PCB I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/High_Voltage_Board_PCB.pdf)|
+|DSP|VCP Based Can Server|[link](https://github.com/KOITT2/RC_Car/blob/master/dsp_proj/vcp_can_serv.c)|
+|DSP|Fifo Based Can Server|[link](https://github.com/KOITT2/RC_Car/blob/master/dsp_proj/fifo_can_serv.c)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
@@ -93,6 +105,8 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Subject|Title|Link|
 |-|-|-|
 |Power Electronics|SMPS Power Electronics|[pdf](https://github.com/KOITT2/RC_Car/blob/6ed79b1c4e26541f60f777e2353fc5d0c711501d/circuit/dcdc/Switch-Mode%20Power%20Supplies.pdf)|
+|PCB|How to Install PCB Tools|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/Altium%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95.pdf)|
+|PCB|Altium Example I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/Altium%20Example.pdf)|
 |Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0718.pdf)|
 |Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0725.pdf)|
 |Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EA%B9%80%ED%98%95%EC%A3%BC_%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C_0801.pdf)|
@@ -112,6 +126,10 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Android|Android TCP/IP Client Example|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TCP_IP_Client_Example(Android).pdf)|
 |Android|Android Remote Controller|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/android/remote_controller)|
 |MCU|USB2CAN VCP & FIFO Integrated Test|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/mcu/Integration_Test_CAN)|
+|MCU|Second Integrated Test|[link](https://github.com/KOITT2/RC_Car/tree/master/experiment/mcu/Integration_Test_CAN_2nd)|
+|MCU|Second Integrated Test Doc|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/2nd_Integration_Test_MCU.pdf)|
+|BOM|BOM List of Project Board Car|[link](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EB%B3%B4%EB%93%9C%EC%B9%B4%20BOM.xlsx)|
+|Tools|How to use Epoxy|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/%EC%97%90%ED%8F%AD%EC%8B%9C%20%EC%A0%91%EC%B0%A9%EC%A0%9C%20%EC%82%AC%EC%9A%A9%EB%B2%95.pdf)|
 
 - Sangyong Jung:		fstopdg@gmail.com
 
@@ -156,11 +174,20 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |MCU|Cortex-R5F Based MPU6050 with Integrated Kalman Filter Test|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MPU6050%2BSTM32.pdf)|
 |MCU|Quadcopter|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/QuadCopter)|
 |MCU|Quadcopter Non RTOS Test|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/pre_QuadCopter(none_RTOS))|
+|MCU|Remote Controller Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/RC_CONTROLLER.pdf)|
+|MCU|Remote Controller Code|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/RC_controller_ecap)|
+|MCU|BME280 Altitude Sensor Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/_BMP280.pdf)|
+|MCU|BME280 Altitude Sensor Code|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/I2C_BMP280)|
+|MCU|MS5611 Control Doc|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MS5611.pdf)|
+|MCU|MS5611 Control Code|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/I2C_MS5611)|
 |Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/44ef2d0eb742be4c8dc96f7bd83f39ad55f4ae06/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%201%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
 |Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/98d0f6031a1141460014fd1ce2336c72acba865f/cur_present/%EB%B0%95%ED%98%84%EC%9A%B0%20-%202%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
 |Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/312b76ec25f050fe1c76bdc70eae0706c3966c64/cur_present/%EC%95%84%EC%9D%B4%EC%96%B8%EB%93%9C%EB%A1%A0/%EB%B0%95%ED%98%84%EC%9A%B0/%EB%B0%95%ED%98%84%EC%9A%B0%20-%203%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
 |Week Mission|4th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%95%84%EC%9D%B4%EC%96%B8%EB%93%9C%EB%A1%A0/%EB%B0%95%ED%98%84%EC%9A%B0/%EB%B0%95%ED%98%84%EC%9A%B0%20-%204%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
 |Week Mission|5th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%95%84%EC%9D%B4%EC%96%B8%EB%93%9C%EB%A1%A0/%EB%B0%95%ED%98%84%EC%9A%B0/%EB%B0%95%ED%98%84%EC%9A%B0%20-%206%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
+|Week Mission|6th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%95%84%EC%9D%B4%EC%96%B8%EB%93%9C%EB%A1%A0/%EB%B0%95%ED%98%84%EC%9A%B0/%EB%B0%95%ED%98%84%EC%9A%B0%20-%207%20%EC%A3%BC%EC%B0%A8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C.pdf)|
+|BOM|Quadcopter BOM List|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%95%84%EC%9D%B4%EC%96%B8%EB%93%9C%EB%A1%A0/%EB%B0%95%ED%98%84%EC%9A%B0/%EB%93%9C%EB%A1%A0%20%EC%A0%9C%EC%9E%91%EC%97%90%20%ED%95%84%EC%9A%94%ED%95%9C%20%EB%B6%80%ED%92%88%EA%B3%BC%20%EA%B2%AC%EC%A0%81(%2B%EB%AA%A8%ED%84%B0%20%EC%B6%94%EB%A0%A5%2C%20%EB%B9%84%ED%96%89%EC%8B%9C%EA%B0%84%20%EA%B3%84%EC%82%B0).pdf)|
+|Design|Non Inertia Frame|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/none_inertia_frame.pdf)|
 
 - Siyun Kim:			glgltldbs@naver.com
 
@@ -179,9 +206,17 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/2_presentation_siyunkim.pdf)|
 |Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/1a1868662196620df5480fdef6227f79de4a49e6/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/4%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_%EA%B9%80%EC%8B%9C%EC%9C%A4.pdf)|
 |Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/5%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_%EA%B9%80%EC%8B%9C%EC%9C%A4.pdf)|
+|Week Mission|4th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EA%B9%80%EC%8B%9C%EC%9C%A4/present.pdf)|
 |MCU|LCD Module Control Code|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/LCD_MODULE)|
 |Icon|Icon Design|[link](https://github.com/glgltldbs/RC_Car/tree/master/experiment/dsp/icon)|
 |MCU|Cortex-R5F Based LCD Control Additional Work|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/mcu_lcd/LCD_MCU2.pdf)|
+|FPGA|MPU9250 with Timer|[link](https://github.com/KOITT2/RC_Car/tree/master/fpga_proj/mpu9250_time)|
+|FPGA|Fork Based Integrated Code|[link](https://github.com/KOITT2/RC_Car/tree/master/fpga_proj/fork_base/all_test)|
+|FPGA|Thread Based Integrated Code|[link](https://github.com/KOITT2/RC_Car/tree/master/fpga_proj/all_test)|
+|FPGA|FPGA Based SPI Control|[pdf](https://github.com/KOITT2/RC_Car/tree/master/fpga_proj/spi_master_system)|
+|FPGA|Petalinux Based Autorun Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/petalinux_autorun.pdf)|
+|FPGA|FPGA Based MPU9250 Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/fpga_MPU9250/MPU9250_AutoRun.pdf)|
+|FPGA|All Integration without Network and Lidar Motor|[link](https://github.com/KOITT2/RC_Car/tree/master/fpga_proj/all_test_2)|
 
 - Hanbyul Jung:			hanbulkr@gmail.com
 
@@ -200,9 +235,13 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |FreeRTOS|FreeRTOS Basic|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/FreeRTOS_basic_cover.pdf)|
 |FreeRTOS|FreeRTOS Can Based Motor Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/FreeRTOS_Can_motor_control_cover.pdf)|
 |Java|Java Server & CS Program|[pdf](https://github.com/KOITT2/RC_Car/tree/master/experiment/doc/test_server)|
+|FPGA|Zybo z7 Based PWM Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/fpga_pwm_zybo_z7_%EC%A0%95%ED%95%9C%EB%B3%84.pdf)|
+|Tools|How to Use Shutter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/shutter%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0_%EC%A0%95%ED%95%9C%EB%B3%84.pdf)|
 |Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/2da9ba755d1ad150263aa8a1be75d740c14c73d7/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%ED%8C%80%EB%B0%9C%ED%91%9C/2%EC%A3%BC%EC%B0%A8%207.18.pptx)|
 |Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/3e1d94fe3b8ef09d47222f27d15276d1fd9153da/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/u%EC%9E%90%EC%B0%A8_3%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C(DC_Converter).pdf)|
 |Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/u%EC%9E%90%EC%B0%A8_5%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EC%A0%95%ED%95%9C%EB%B3%84.pdf)|
+|FPGA|MPU9250 Control with Zybo Z7-10|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/fpga_zynq_z-7_mpu9250_device_driver_by%20onestar.pdf)|
+|FPGA|Verilog Concept Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/verilog%20%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC.pdf)|
 
 - Daesung Choi:			c3d4s19@naver.com
 
@@ -223,11 +262,27 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |-|-|-|
 |MCU|Cortex-R5F Based Turn Signal Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Turnsignal.pdf)|
 |MCU|Cortex-R5F Based Head Light Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/HeadLight.pdf)|
+|MCU|Cortex-R5F Based Buzzer with CAN|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Buzzer_CAN.pdf)|
+|MCU|Cortex-R5F Based Break Light with CAN|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Break_Signal.pdf)|
 |FreeRTOS|FreeRTOS Based MPU6050 Control with Cortex-R5F|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MPU6050_RTOS.pdf)|
+|MCU|Gas Pedal Method|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/gas%20pedal.pdf)|
 
 - Taeyoung Eun:     zero_bird@naver.com
 
 ![taeyoung](./member_profile/taeyoung_profile_1.jpg)
+
+|Subject|Title|Link|
+|-|-|-|
+|MCU|GIO Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%80%ED%83%9C%EC%98%81/%EC%9D%80%ED%83%9C%EC%98%81%20-%20GIO.pdf)|
+|FreeRTOS|Role of FreeRTOS Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%80%ED%83%9C%EC%98%81/%EC%9D%80%ED%83%9C%EC%98%81%20-%20FreeRTOS_%EC%A7%84%ED%96%89%20%EB%B0%A9%ED%96%A5.pdf)|
+|FreeRTOS|FreeRTOS Queue Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%80%ED%83%9C%EC%98%81/%EC%9D%80%ED%83%9C%EC%98%81%20-%20RTOS_queue.pdf)|
+|FreeRTOS|FreeRTOS Task Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%80%ED%83%9C%EC%98%81/%EC%9D%80%ED%83%9C%EC%98%81%20-%20RTOS_task.pdf)|
+|FreeRTOS|FreeRTOS Coding Style|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%80%ED%83%9C%EC%98%81/%EC%9D%80%ED%83%9C%EC%98%81%20-%20RTOS_%EC%BD%94%EB%94%A9%20%EC%95%88%EB%82%B4%EC%84%9C.pdf)|
+|FreeRTOS|FreeRTOS Semaphore|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%80%ED%83%9C%EC%98%81/%EC%9D%80%ED%83%9C%EC%98%81%20-%20RTOS_%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4.pdf)|
+|FreeRTOS|FreeRTOS SW Timer|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%80%ED%83%9C%EC%98%81/%EC%9D%80%ED%83%9C%EC%98%81%20-%20RTOS_%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%ED%83%80%EC%9D%B4%EB%A8%B8.pdf)|
+|FreeRTOS|FreeRTOS Event Group API|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%80%ED%83%9C%EC%98%81/%EC%9D%80%ED%83%9C%EC%98%81%20-%20RTOS_%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EA%B7%B8%EB%A3%B9.pdf)|
+|FreeRTOS|FreeRTOS Stream Buffer|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%80%ED%83%9C%EC%98%81/%EC%9D%80%ED%83%9C%EC%98%81%20-%20RTOS_%EC%8A%A4%ED%8A%B8%EB%A6%BC%20%EB%B2%84%ED%8D%BC.pdf)|
+|FreeRTOS|FreeRTOS Message Buffer|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%80%ED%83%9C%EC%98%81/%EC%9D%80%ED%83%9C%EC%98%81%20-%20RTOS_%EB%A9%94%EC%8B%9C%EC%A7%80%20%EB%B2%84%ED%8D%BC.pdf)|
 
 - Wooseok Lee:			colre99@naver.com
 
@@ -274,6 +329,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |FPGA|Zynq Zybo FPGA|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/ZYBO_PWM_IP_CREATE.pdf)|
 |FPGA|Zynq Zybo Petalinux v2015.4|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/petalinux(v2015-4).pdf)|
 |FPGA|Zynq Zybo PWM IP Creation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/ZYBO_PWM_IP_CREATE.pdf)|
+|FPGA & MCU|MPU9250 Comparison with MCU and FPGA|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/%5Bzynq-Vivado%2BPetaLinux%5D%20mpu9250.pdf)|
 
 - Jiwan Yoon:			yoonjw7894@naver.com
 
@@ -295,6 +351,8 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |MCU|SPI Communication(need to modify)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%95%88%EC%83%81%EC%9E%AC/SPI%20%EA%B5%AC%ED%98%84.pdf)|
 |MCU|SPI Need to Modify|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%95%88%EC%83%81%EC%9E%AC/SPI%20%EA%B5%AC%ED%98%84(MCU-MCU).pdf)|
 |MCU|Collision Warn Sound Buzzer|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/BUZZER.pdf)|
+|MCU|Ultrasonic HC SR-04 Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Ultrasonic%20Ranging%20Module%20HC%20-%20SR04.pdf)|
+|FreeRTOS|All Summation MCU Code|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/FreeRTOS)|
 
 - Soojeong Hwang:		sue100012@naver.com
 
@@ -320,6 +378,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/4%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EC%A0%95%EC%9C%A0%EA%B2%BD_Calibration%2C%20Putty%EC%9D%B4%EC%9A%A9%ED%95%9C%20duty%EC%A0%9C%EC%96%B4(%EB%AA%A8%ED%84%B0%EC%A0%9C%EC%96%B4).pdf)|
 |Week Mission|4th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180808_5%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_%EB%94%94%EC%BD%94%EB%8D%94_%EC%84%B8%EA%B7%B8%EB%A8%BC%ED%8A%B8.pdf)|
 |Week Mission|5th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180816_6%ED%9A%8C%EC%B0%A8_LCD_Display.pdf)|
+|BOM|BOM List of Project Lazen Car|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180829_%EB%9D%BC%EC%A0%A0%EC%B9%B4_%EB%B6%80%ED%92%88%EA%B5%AC%EB%A7%A4%EB%AA%A9%EB%A1%9D.pdf)|
 
 - Yeonsung Yoon:		Jonordvn@gmail.com
 
@@ -340,3 +399,4 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Subject|Title|Link|
 |-|-|-|
 |Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/ccdc85d21cb431de748dff5812b0fff4dc35d586/_1%EC%A3%BC%EC%B0%A8%200711_%ED%95%98%EC%84%B1%EC%9A%A9.pdf)|
+|BOM|BOM List of You Ja Cha|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%ED%95%98%EC%84%B1%EC%9A%A9/8%EC%9B%9429%EC%9D%BC%EC%9E%90_BOM.pdf)|

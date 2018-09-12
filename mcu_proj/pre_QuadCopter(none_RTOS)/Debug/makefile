@@ -10,11 +10,13 @@ GEN_OPTS__FLAG :=
 GEN_CMDS__FLAG := 
 
 ORDERED_OBJS += \
+"./source/HL_ecap.obj" \
 "./source/HL_epc.obj" \
 "./source/HL_errata.obj" \
 "./source/HL_esm.obj" \
 "./source/HL_etpwm.obj" \
 "./source/HL_gio.obj" \
+"./source/HL_het.obj" \
 "./source/HL_i2c.obj" \
 "./source/HL_nmpu.obj" \
 "./source/HL_notification.obj" \
@@ -142,42 +144,42 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXE_OUTPUTS += \
-pre_QuadCopter.out \
+pre__QuadCopter.out \
 
 EXE_OUTPUTS__QUOTED += \
-"pre_QuadCopter.out" \
+"pre__QuadCopter.out" \
 
 BIN_OUTPUTS += \
-pre_QuadCopter.hex \
+pre__QuadCopter.hex \
 
 BIN_OUTPUTS__QUOTED += \
-"pre_QuadCopter.hex" \
+"pre__QuadCopter.hex" \
 
 
 # All Target
 all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
-	@$(MAKE) --no-print-directory -Onone "pre_QuadCopter.out"
+	@$(MAKE) --no-print-directory -Onone "pre__QuadCopter.out"
 
 # Tool invocations
-pre_QuadCopter.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
+pre__QuadCopter.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: ARM Linker'
-	"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"pre_QuadCopter.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="pre_QuadCopter_linkInfo.xml" --rom_model --be32 -o "pre_QuadCopter.out" $(ORDERED_OBJS)
+	"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"pre__QuadCopter.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="pre__QuadCopter_linkInfo.xml" --rom_model --be32 -o "pre__QuadCopter.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
-pre_QuadCopter.hex: $(EXE_OUTPUTS)
+pre__QuadCopter.hex: $(EXE_OUTPUTS)
 	@echo 'Building files: $(strip $(EXE_OUTPUTS__QUOTED))'
 	@echo 'Invoking: ARM Hex Utility'
-	"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/bin/armhex"  -o "pre_QuadCopter.hex" $(EXE_OUTPUTS__QUOTED)
+	"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/bin/armhex"  -o "pre__QuadCopter.hex" $(EXE_OUTPUTS__QUOTED)
 	@echo 'Finished building: $(strip $(EXE_OUTPUTS__QUOTED))'
 	@echo ' '
 
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "source\HL_epc.obj" "source\HL_errata.obj" "source\HL_esm.obj" "source\HL_etpwm.obj" "source\HL_gio.obj" "source\HL_i2c.obj" "source\HL_nmpu.obj" "source\HL_notification.obj" "source\HL_pinmux.obj" "source\HL_rti.obj" "source\HL_sci.obj" "source\HL_sys_core.obj" "source\HL_sys_dma.obj" "source\HL_sys_intvecs.obj" "source\HL_sys_main.obj" "source\HL_sys_mpu.obj" "source\HL_sys_pcr.obj" "source\HL_sys_phantom.obj" "source\HL_sys_pmm.obj" "source\HL_sys_pmu.obj" "source\HL_sys_startup.obj" "source\HL_sys_vim.obj" "source\HL_system.obj" 
-	-$(RM) "source\HL_epc.d" "source\HL_errata.d" "source\HL_esm.d" "source\HL_etpwm.d" "source\HL_gio.d" "source\HL_i2c.d" "source\HL_nmpu.d" "source\HL_notification.d" "source\HL_pinmux.d" "source\HL_rti.d" "source\HL_sci.d" "source\HL_sys_dma.d" "source\HL_sys_main.d" "source\HL_sys_pcr.d" "source\HL_sys_phantom.d" "source\HL_sys_pmm.d" "source\HL_sys_startup.d" "source\HL_sys_vim.d" "source\HL_system.d" 
+	-$(RM) "source\HL_ecap.obj" "source\HL_epc.obj" "source\HL_errata.obj" "source\HL_esm.obj" "source\HL_etpwm.obj" "source\HL_gio.obj" "source\HL_het.obj" "source\HL_i2c.obj" "source\HL_nmpu.obj" "source\HL_notification.obj" "source\HL_pinmux.obj" "source\HL_rti.obj" "source\HL_sci.obj" "source\HL_sys_core.obj" "source\HL_sys_dma.obj" "source\HL_sys_intvecs.obj" "source\HL_sys_main.obj" "source\HL_sys_mpu.obj" "source\HL_sys_pcr.obj" "source\HL_sys_phantom.obj" "source\HL_sys_pmm.obj" "source\HL_sys_pmu.obj" "source\HL_sys_startup.obj" "source\HL_sys_vim.obj" "source\HL_system.obj" 
+	-$(RM) "source\HL_ecap.d" "source\HL_epc.d" "source\HL_errata.d" "source\HL_esm.d" "source\HL_etpwm.d" "source\HL_gio.d" "source\HL_het.d" "source\HL_i2c.d" "source\HL_nmpu.d" "source\HL_notification.d" "source\HL_pinmux.d" "source\HL_rti.d" "source\HL_sci.d" "source\HL_sys_dma.d" "source\HL_sys_main.d" "source\HL_sys_pcr.d" "source\HL_sys_phantom.d" "source\HL_sys_pmm.d" "source\HL_sys_startup.d" "source\HL_sys_vim.d" "source\HL_system.d" 
 	-$(RM) "source\HL_sys_core.d" "source\HL_sys_intvecs.d" "source\HL_sys_mpu.d" "source\HL_sys_pmu.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
