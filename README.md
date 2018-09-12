@@ -355,6 +355,9 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |MCU|Collision Warn Sound Buzzer|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/BUZZER.pdf)|
 |MCU|Ultrasonic HC SR-04 Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Ultrasonic%20Ranging%20Module%20HC%20-%20SR04.pdf)|
 |FreeRTOS|All Summation MCU Code|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/FreeRTOS)|
+|Week Mission|1st Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%8C%80%EB%B0%9C%ED%91%9C/9%EC%A3%BC%EC%B0%A8%20%EB%9D%BC%EC%A0%A0%EC%B9%B4%20%EB%B0%9C%ED%91%9C.pdf)|
+|PCB|Add Library on Altium|[pdf](https://github.com/KOITT2/RC_Car/blob/master/pcb/install%20Library%20based%20on%20Alitum.pdf)|
+|PCB|Altium Based Circuit Simulation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/pcb/Schematic%2C%20Simulation%2C%20PCB%20Design%20(Altium).pdf)|
 
 - Soojeong Hwang:		sue100012@naver.com
 
