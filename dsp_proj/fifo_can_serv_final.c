@@ -307,7 +307,7 @@ void *fpga_rx(void *fd)
 		if((rlen = read(fpga_sock, (int *)&lidar_data, sizeof(lidar_data))) != 0)
 			write(fpga_sock, msg, len);
 
-		printf("msg = %s\n", msg);
+		printf("msg = %d\n", lidar_data);
 
 		usleep(1000);
 	}
