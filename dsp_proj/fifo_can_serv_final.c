@@ -98,7 +98,7 @@ void set_bldc_vcp_tx_buf(char *buf, char *tx_buf, int protocol)
 	tx_buf[9] = buf[1];
 	tx_buf[10] = buf[2];
 	tx_buf[11] = buf[3];
-	tx_buf[11] = buf[4];
+	tx_buf[12] = buf[4];
 
 	printf_can_arr(tx_buf, 18);
 }
