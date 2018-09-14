@@ -99,6 +99,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |DSP|Fifo Based Can Server|[link](https://github.com/KOITT2/RC_Car/blob/master/dsp_proj/fifo_can_serv.c)|
 |DSP|Fifo Based Can Server with FPGA Lan Server|[link](https://github.com/KOITT2/RC_Car/blob/master/dsp_proj/fifo_can_serv_final.c)|
 |DSP|AM5728 ALSA Sound Driver Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_ALSA_Driver_Setting.pdf)|
+|DSP|Sound Engineering|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_Sound_Engineering_1.pdf)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
