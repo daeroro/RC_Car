@@ -315,11 +315,14 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 
 |Subject|Title|Link|
 |-|-|-|
-|FPGA|ModelSim Usage I|[pdf]()|
-|FPGA|ModelSim Installation on Linux|[pdf]()|
-|FPGA|Verilog Basic Grammar|[pdf]()|
-|FPGA|Can Communication between Zybo Boards|[pdf]()|
-|FPGA|Can Communication Vivado SDK Analysis|[pdf]()|
+|FPGA|ModelSim Usage I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/modelsim%20%EC%82%AC%EC%9A%A9%EB%B2%951%20-%20modelsim%EC%97%90%EC%84%9C%20%EC%BD%94%EB%93%9C%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%20%EB%B0%8F%20%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98.pdf)|
+|FPGA|ModelSim Installation on Linux|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/modelsim(intel)%20install.pdf)|
+|FPGA|Verilog Basic Grammar|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/verilog-1.pdf)|
+|FPGA|Can Communication between Zybo Boards|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/can%ED%86%B5%EC%8B%A0%20sdk.pdf)|
+|FPGA|Can Communication Vivado SDK Analysis|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/zybo%20%EA%B0%84%EC%9D%98%20pmod%20%EC%BA%94%ED%86%B5%EC%8B%A0%20%EC%98%88%EC%A0%9C.pdf)|
+|FPGA|Petalinux Based SPI Loopback|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/SPI%20-%20petalinux.pdf)|
+|Tools|Kernel Driving Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/petalinux%20%EC%BB%A4%EB%84%90%EC%9D%98%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B9%99-1.pdf)|
+|FPGA|Understanding of Device Tree|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%ED%8A%B8%EB%A6%AC%20%EC%9D%B4%ED%95%B4.pdf)|
 
 - Hyungjun Yu:			love592946@naver.com
 
