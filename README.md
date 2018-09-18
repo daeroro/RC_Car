@@ -272,6 +272,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |MCU|Cortex-R5F Based Break Light with CAN|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Break_Signal.pdf)|
 |FreeRTOS|FreeRTOS Based MPU6050 Control with Cortex-R5F|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MPU6050_RTOS.pdf)|
 |MCU|Gas Pedal Method|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/gas%20pedal.pdf)|
+|MCU|Ecap Basics|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/ecap.pdf)|
 
 - Taeyoung Eun:     zero_bird@naver.com
 
