@@ -248,6 +248,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/u%EC%9E%90%EC%B0%A8_5%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EC%A0%95%ED%95%9C%EB%B3%84.pdf)|
 |FPGA|MPU9250 Control with Zybo Z7-10|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/fpga_zynq_z-7_mpu9250_device_driver_by%20onestar.pdf)|
 |FPGA|Verilog Concept Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/verilog%20%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC.pdf)|
+|FPGA|eCAP with SDK|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/eCAP_sdk_%EC%A0%95%ED%95%9C%EB%B3%84.pdf)|
 
 - Daesung Choi:			c3d4s19@naver.com
 
