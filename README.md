@@ -379,6 +379,9 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Week Mission|1st Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%8C%80%EB%B0%9C%ED%91%9C/9%EC%A3%BC%EC%B0%A8%20%EB%9D%BC%EC%A0%A0%EC%B9%B4%20%EB%B0%9C%ED%91%9C.pdf)|
 |PCB|Add Library on Altium|[pdf](https://github.com/KOITT2/RC_Car/blob/master/pcb/install%20Library%20based%20on%20Alitum.pdf)|
 |PCB|Altium Based Circuit Simulation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/pcb/Schematic%2C%20Simulation%2C%20PCB%20Design%20(Altium).pdf)|
+|Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%8C%80%EB%B0%9C%ED%91%9C/10%EC%A3%BC%EC%B0%A8%20%EB%9D%BC%EC%A0%A0%EC%B9%B4%20%EB%B0%9C%ED%91%9C.pdf)|
+|Circuit|Practical IR2110 Based Circuit|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/IR2110%20TEST.pdf)|
+|Circuit|Practical IR2110 + TL494 Based Circuit|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/IR2110%2BTL494%20TEST.pdf)|
 
 - Soojeong Hwang:		sue100012@naver.com
 
