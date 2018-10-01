@@ -327,6 +327,8 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |FPGA|Petalinux Based SPI Loopback|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/SPI%20-%20petalinux.pdf)|
 |Tools|Kernel Driving Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/petalinux%20%EC%BB%A4%EB%84%90%EC%9D%98%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B9%99-1.pdf)|
 |FPGA|Understanding of Device Tree|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%ED%8A%B8%EB%A6%AC%20%EC%9D%B4%ED%95%B4.pdf)|
+|FPGA|SPI on Petalinux|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/SPI%20-%20petalinux.pdf)|
+|FPGA|I2C MPU6050 Verilog Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/i2c%20mpu6050-verilog.pdf)|
 
 - Hyungjun Yu:			love592946@naver.com
 
