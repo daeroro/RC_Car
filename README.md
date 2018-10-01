@@ -160,6 +160,9 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |MCU|eQEP Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/eQEP_%EB%AC%B8%ED%95%9C%EB%82%98_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)|
 |Control Theory|PID Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/PID%EC%A0%9C%EC%96%B4_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)
 |Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%ED%8C%80%EB%B0%9C%ED%91%9C/%EC%9C%A0%EC%9E%90%EC%B0%A8%20%EC%A0%84%EC%B2%B4%20%EB%B0%9C%ED%91%9C2.pdf)|
+|FPGA|eQEP High Speed Counter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/FPGA_EQEP_highspeedmode.pdf)|
+|Algorithm|Numerical Analysis with C|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/Algorithm_first_step.pdf)|
+|MCU|Gas Pedal Control with Light Sensor|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/Manual%20Acc%20control%20Using%20LightSensor.pdf)|
 
 - Hyunwoo Park:			phw820@naver.com
 
