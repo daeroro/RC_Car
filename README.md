@@ -379,6 +379,8 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |MCU|SPI Need to Modify|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%95%88%EC%83%81%EC%9E%AC/SPI%20%EA%B5%AC%ED%98%84(MCU-MCU).pdf)|
 |MCU|Collision Warn Sound Buzzer|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/BUZZER.pdf)|
 |MCU|Ultrasonic HC SR-04 Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Ultrasonic%20Ranging%20Module%20HC%20-%20SR04.pdf)|
+|MCU|FM Radio with STM32F407|[pdf](https://github.com/KOITT2/RC_Car/blob/master/mcu_proj/FM%20Radio%20%EC%84%A4%EA%B3%84%20%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)|
+|STM32F4|Getting Started STM32 with TrueStudio|[pdf](https://github.com/KOITT2/RC_Car/blob/master/Getting%20Started%20STM32%20with%20True%20STUDIO%20%26%20CubeMx.pdf)|
 |FreeRTOS|All Summation MCU Code|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/FreeRTOS)|
 |Week Mission|1st Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%8C%80%EB%B0%9C%ED%91%9C/9%EC%A3%BC%EC%B0%A8%20%EB%9D%BC%EC%A0%A0%EC%B9%B4%20%EB%B0%9C%ED%91%9C.pdf)|
 |PCB|Add Library on Altium|[pdf](https://github.com/KOITT2/RC_Car/blob/master/pcb/install%20Library%20based%20on%20Alitum.pdf)|
@@ -387,6 +389,9 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Circuit|Practical IR2110 Based Circuit|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/IR2110%20TEST.pdf)|
 |Circuit|Practical IR2110 + TL494 Based Circuit|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/IR2110%2BTL494%20TEST.pdf)|
 |Circuit|LM2576-ADJ Based DC-DC Converter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/DCDC%20converter%20based%20on%20LM2576-adj.pdf)|
+|Circuit|TL494 Based DC-DC Converter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/DCDC%20converter%20based%20on%20TL494.pdf)|
+|Circuit|TL494 + IR2110 Based DC-DC Converter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/DC-DC%20CONVERTER%20TEST%20(IR2110%2BTL494).pdf)|
+|Circuit|TL494 Based DC-DC Converter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/DCDC%20converter%20based%20on%20TL494.pdf)|
 
 - Soojeong Hwang:		sue100012@naver.com
 
