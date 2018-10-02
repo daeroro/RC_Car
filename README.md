@@ -316,6 +316,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |MCU|Cortex-R5F Based I2C Lidar Control|[pdf](https://github.com/KOITT2/RC_Car/blob/9971ac4023c648bc63ef648146c7e0335636ba75/experiment/doc/I2C_Lidar.pdf)|
 |MCU|eQEP Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/eQEP_%EB%AC%B8%ED%95%9C%EB%82%98_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)|
 |MCU|Steering Control with Cortex-R5F|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_%EC%A1%B0%ED%96%A5%EC%A0%9C%EC%96%B4_0919.pdf)|
+|MCU|Manual Drive with Light Sensor|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EC%A1%B0%EB%8F%84%EC%84%BC%EC%84%9C%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20%EC%88%98%EB%8F%99%EC%A3%BC%ED%96%89.pdf)|
 |MCU|FreeRTOS Based RC Car Final Version|[pdf](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/Final_RTOS)|
 |FPGA|Vivado SDK Based UART|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/FPGA_UART(SDK).pdf)
 |Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/428a71fb9c7d874e3f48fac09fc5772fdc92dfa9/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_2%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0718.pdf)|
