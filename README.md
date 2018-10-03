@@ -25,7 +25,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 
 # Contribution Summary
 
-Master - [Sanghoon Lee](#Sanghoon Lee)
+Master - [Sanghoon Lee](#sanghoon-lee)
 
 Member - [Hyungju Kim](#Hyungju Kim)
 
