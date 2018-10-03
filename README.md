@@ -110,7 +110,7 @@ Member - [Hyungju Kim]
 |DSP|Sound Engineering|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_Sound_Engineering_1.pdf)|
 
 # Member
-- Hyungju Kim(#hyungju-kim):			mihaelkel@naver.com
+- Hyungju Kim:			mihaelkel@naver.com
 
 ![hyungju](./member_profile/hyungju_profile_1.jpg)
 
