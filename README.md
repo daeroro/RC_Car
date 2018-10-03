@@ -25,7 +25,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 
 # Contribution Summary
 
-Master - [Sanghoon Lee](https://github.com/KOITT2/RC_Car/blob/master/README.md#L32)
+Master - [Sanghoon Lee](https://github.com/KOITT2/RC_Car/blob/master/README.md#L32-L110)
 
 Member - [Hyungju Kim](https://github.com/KOITT2/RC_Car/blob/master/README.md#L113)
 
