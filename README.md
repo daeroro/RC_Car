@@ -19,8 +19,6 @@ int main(void)
 }
 ```
 
-이거눌러봐 -> 
-
 # Important Project Issue
 
 There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.15.
@@ -397,6 +395,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Circuit|TL494 Based DC-DC Converter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/DCDC%20converter%20based%20on%20TL494.pdf)|
 |Circuit|TL494 + IR2110 Based DC-DC Converter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/DC-DC%20CONVERTER%20TEST%20(IR2110%2BTL494).pdf)|
 |Circuit|TL494 Based DC-DC Converter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/DCDC%20converter%20based%20on%20TL494.pdf)|
+|Circuit|Astable Multivibrator Analysis|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/%EB%B9%84%EC%95%88%EC%A0%95%20%EB%A9%80%ED%8B%B0%EB%B0%94%EC%9D%B4%EB%B8%8C%EB%A0%88%EC%9D%B4%ED%84%B0%20%ED%9A%8C%EB%A1%9C%20%EB%B6%84%EC%84%9D.pdf)|
 
 - Soojeong Hwang:		sue100012@naver.com
 
