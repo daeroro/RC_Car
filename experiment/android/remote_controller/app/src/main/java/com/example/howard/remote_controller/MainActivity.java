@@ -8,10 +8,13 @@ import android.os.health.TimerStat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.SeekBar;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -33,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     public Socket socket;
     public int veloc = 1500, servo = 1500;
     public int seek = 1500;
-
+    public Switch blink_left, blink_right, front_light, break_light;
     private Handler mHandler = new Handler();
 
     private DataOutputStream writeSocket;
@@ -73,6 +76,12 @@ public class MainActivity extends AppCompatActivity {
         ang_seek = (SeekBar)findViewById(R.id.ang_seek);
         seek_test = (TextView)findViewById(R.id.textView4);
 
+        blink_left = (Switch)findViewById(R.id.blink_left);
+        blink_right = (Switch)findViewById(R.id.blink_right);
+        front_light = (Switch)findViewById(R.id.front_light);
+        break_light = (Switch)findViewById(R.id.break_light);
+
+
         mTask = new TimerTask() {
             @Override
             public void run() {
@@ -99,6 +108,106 @@ public class MainActivity extends AppCompatActivity {
         mTimer = new Timer();
         mTimer.schedule(mTask,3, 200);
 
+        blink_left.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(b){
+                    try {
+                        byte[] msg = new byte[10240];
+
+                        msg = ("7 1000000").getBytes();
+                        writeSocket.write(msg, 0, msg.length);
+                    }catch(Exception e){
+
+                    }
+                }
+                else{
+                    try {
+                        byte[] msg = new byte[10240];
+                        msg = ("7 0000000").getBytes();
+                        writeSocket.write(msg, 0, msg.length);
+                    }catch(Exception e){
+
+                    }
+                }
+
+            }
+        });
+        blink_right.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(b){
+                    try {
+                        byte[] msg = new byte[10240];
+
+                        msg = ("8 1000000").getBytes();
+                        writeSocket.write(msg, 0, msg.length);
+                    }catch(Exception e){
+
+                    }
+                }
+                else{
+                    try {
+                        byte[] msg = new byte[10240];
+                        msg = ("8 0000000").getBytes();
+                        writeSocket.write(msg, 0, msg.length);
+                    }catch(Exception e){
+
+                    }
+                }
+
+            }
+        });
+        front_light.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(b){
+                    try {
+                        byte[] msg = new byte[10240];
+
+                        msg = ("9 1000000").getBytes();
+                        writeSocket.write(msg, 0, msg.length);
+                    }catch(Exception e){
+
+                    }
+                }
+                else{
+                    try {
+                        byte[] msg = new byte[10240];
+                        msg = ("9 0000000").getBytes();
+                        writeSocket.write(msg, 0, msg.length);
+                    }catch(Exception e){
+
+                    }
+                }
+
+            }
+        });
+        break_light.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(b){
+                    try {
+                        byte[] msg = new byte[10240];
+
+                        msg = ("10 1000000").getBytes();
+                        writeSocket.write(msg, 0, msg.length);
+                    }catch(Exception e){
+
+                    }
+                }
+                else{
+                    try {
+                        byte[] msg = new byte[10240];
+                        msg = ("10 0000000").getBytes();
+                        writeSocket.write(msg, 0, msg.length);
+                    }catch(Exception e){
+
+                    }
+                }
+
+            }
+        });
         ang_seek.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
@@ -178,7 +287,6 @@ public class MainActivity extends AppCompatActivity {
                 (new send_d()).start();
             }
         });
-
 
         send_stop.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -275,7 +383,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         // TODO Auto-generated method stub
-                        setToast("메세지 전송 성공");
+         //               setToast("메세지 전송 성공");
                     }
                 });
             } catch (Exception e) {
@@ -298,7 +406,7 @@ public class MainActivity extends AppCompatActivity {
                     if (veloc < 1530 && veloc > 1470)
                         veloc = 1530;
                     else if (veloc < 2000)
-                        veloc += 3;
+                        veloc += 5;
                     String tx = "13 " + Integer.toString(veloc) + "0000";
                     byte[] msg = new byte[10240];
                     msg = tx.getBytes();
@@ -312,7 +420,7 @@ public class MainActivity extends AppCompatActivity {
                         public void run() {
                             // TODO Auto-generated method stub
                             vel.setText(Integer.toString(veloc));
-                            setToast("메세지 전송 성공");
+           //                 setToast("메세지 전송 성공");
                         }
                     });
 
@@ -336,7 +444,7 @@ public class MainActivity extends AppCompatActivity {
                 if(veloc > 1470 && veloc < 1530)
                     veloc = 1470;
                 else if(veloc > 1000)
-                    veloc -= 3;
+                    veloc -= 5;
                 String tx = "13 " + Integer.toString(veloc) + "0000";
                 byte[] msg = new byte[10240];
                 msg = tx.getBytes();
@@ -347,7 +455,7 @@ public class MainActivity extends AppCompatActivity {
                     public void run() {
                         // TODO Auto-generated method stub
                         vel.setText(Integer.toString(veloc));
-                        setToast("메세지 전송 성공");
+             //           setToast("메세지 전송 성공");
                     }
                 });
             } catch (Exception e) {
@@ -380,7 +488,7 @@ public class MainActivity extends AppCompatActivity {
                     public void run() {
                         // TODO Auto-generated method stub
                         vel.setText(Integer.toString(veloc));
-                        setToast("메세지 전송 성공");
+               //         setToast("메세지 전송 성공");
                     }
                 });
             } catch (Exception e) {
@@ -403,7 +511,7 @@ public class MainActivity extends AppCompatActivity {
         public void handleMessage(Message msg) {
             //이 어플이 데이터를 수신했을 시, 어떤 동작을 할 지 작성하면 됨
             //이 예제에서는 단순히 받은 데이터를 표시하게 되어있음
-            setToast("메세지 수신 성공");
+        //    setToast("메세지 수신 성공");
             rx_msg.setText(recv);
         }
     };
