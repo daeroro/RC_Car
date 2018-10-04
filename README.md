@@ -19,6 +19,15 @@ int main(void)
 }
 ```
 
+# team
+
+- [Sanghoon Lee](#sanghoon-Lee)
+
+# Master
+
+## Sanghoon Lee
+mail:         gcccompil3r@gmail.com
+
 # Important Project Issue
 
 There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.15.
