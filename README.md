@@ -23,6 +23,12 @@ int main(void)
 
 There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.15.
 
+# Contribution Summary
+
+Master - [Sanghoon Lee](#Sanghoon Lee)
+
+Member - [Hyungju Kim](#Hyungju Kim)
+
 # Master
 - Sanghoon Lee:			gcccompil3r@gmail.com
 
@@ -42,6 +48,9 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Week Mission|7th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_7.pdf)|
 |Week Mission|8th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_8.pdf)|
 |Week Mission|9th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_9.pdf)|
+|Week Mission|10th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_10.pdf)|
+|Week Mission|11th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_11.pdf)|
+|Week Mission|12th Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%B4%9D%EA%B4%84%EC%84%A4%EA%B3%84%EC%A0%90%EA%B2%80/Project_12.pdf)|
 |Design|Full Architecture|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/Full_Architecture.pdf)|
 |Design|Lidar Signal Processing Design|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/Lidar_Signal_Processing_Design.pdf)|
 |DSP|AM5728 FTDI USB 2 CAN|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_FTDI_USB_2_CAN.pdf)|
@@ -96,6 +105,9 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |PCB|High Voltage Gate Driver PCB I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/dcdc/High_Voltage_Board_PCB.pdf)|
 |DSP|VCP Based Can Server|[link](https://github.com/KOITT2/RC_Car/blob/master/dsp_proj/vcp_can_serv.c)|
 |DSP|Fifo Based Can Server|[link](https://github.com/KOITT2/RC_Car/blob/master/dsp_proj/fifo_can_serv.c)|
+|DSP|Fifo Based Can Server with FPGA Lan Server|[link](https://github.com/KOITT2/RC_Car/blob/master/dsp_proj/fifo_can_serv_final.c)|
+|DSP|AM5728 ALSA Sound Driver Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_ALSA_Driver_Setting.pdf)|
+|DSP|Sound Engineering|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_Sound_Engineering_1.pdf)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
@@ -154,6 +166,13 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |MCU|Cortex-R5F CAN Register|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/CAN_Register_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)|
 |MCU|eQEP Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/eQEP_%EB%AC%B8%ED%95%9C%EB%82%98_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)|
 |Control Theory|PID Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/PID%EC%A0%9C%EC%96%B4_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)
+|Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%ED%8C%80%EB%B0%9C%ED%91%9C/%EC%9C%A0%EC%9E%90%EC%B0%A8%20%EC%A0%84%EC%B2%B4%20%EB%B0%9C%ED%91%9C2.pdf)|
+|FPGA|eQEP High Speed Counter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/FPGA_EQEP_highspeedmode.pdf)|
+|FPGA|eQEP Low Speed Counter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/FPGA_EQEP_lowspeedmode.pdf)|
+|FPGA|eQEP with Petalinux|[pdf](https://github.com/KOITT2/RC_Car/blob/master/FPGA_EQEP_petalinux.pdf)|
+|Algorithm|Numerical Analysis with C|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/Algorithm_first_step.pdf)|
+|MCU|Gas Pedal Control with Light Sensor|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/Manual%20Acc%20control%20Using%20LightSensor.pdf)|
+|BOM|Final BOM|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/%EC%B5%9C%EC%A2%85%20BOM.pdf)|
 
 - Hyunwoo Park:			phw820@naver.com
 
@@ -242,6 +261,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%A0%95%ED%95%9C%EB%B3%84/u%EC%9E%90%EC%B0%A8_5%ED%9A%8C%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EC%A0%95%ED%95%9C%EB%B3%84.pdf)|
 |FPGA|MPU9250 Control with Zybo Z7-10|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/fpga_zynq_z-7_mpu9250_device_driver_by%20onestar.pdf)|
 |FPGA|Verilog Concept Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/verilog%20%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC.pdf)|
+|FPGA|eCAP with SDK|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/eCAP_sdk_%EC%A0%95%ED%95%9C%EB%B3%84.pdf)|
 
 - Daesung Choi:			c3d4s19@naver.com
 
@@ -266,6 +286,12 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |MCU|Cortex-R5F Based Break Light with CAN|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Break_Signal.pdf)|
 |FreeRTOS|FreeRTOS Based MPU6050 Control with Cortex-R5F|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MPU6050_RTOS.pdf)|
 |MCU|Gas Pedal Method|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/gas%20pedal.pdf)|
+|MCU|Ecap Basics|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/ecap.pdf)|
+|MCU|Cortex-R5F Based etPWM Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/motor1%20final.pdf)|
+|MCU|Cortex-R5F Based eCAP Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/ecap%20final.pdf)|
+|MCU|Cortex-R5F Based LCD Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/lcd%20basic.pdf)|
+|MCU|Cortex-R5F Based Lidar Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/lidar%20basic.pdf)|
+|MCU|Cortex-R5F Based ESC Calibration Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Motor%20option%20%26%20calibration.pdf)|
 
 - Taeyoung Eun:     zero_bird@naver.com
 
@@ -296,11 +322,15 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |-|-|-|
 |MCU|Cortex-R5F Based I2C Lidar Control|[pdf](https://github.com/KOITT2/RC_Car/blob/9971ac4023c648bc63ef648146c7e0335636ba75/experiment/doc/I2C_Lidar.pdf)|
 |MCU|eQEP Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/eQEP_%EB%AC%B8%ED%95%9C%EB%82%98_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)|
+|MCU|Steering Control with Cortex-R5F|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_%EC%A1%B0%ED%96%A5%EC%A0%9C%EC%96%B4_0919.pdf)|
+|MCU|Manual Drive with Light Sensor|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EC%A1%B0%EB%8F%84%EC%84%BC%EC%84%9C%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20%EC%88%98%EB%8F%99%EC%A3%BC%ED%96%89.pdf)|
+|MCU|FreeRTOS Based RC Car Final Version|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/Final_RTOS)|
 |FPGA|Vivado SDK Based UART|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/FPGA_UART(SDK).pdf)
 |Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/428a71fb9c7d874e3f48fac09fc5772fdc92dfa9/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_2%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0718.pdf)|
 |Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/0683a09a93eae294cd33885be7710c6c1117bdbe/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_3%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0725.pdf)|
 |Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_4%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0801.pdf)|
 |Week Mission|4th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_6%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0816.pdf)|
+|Week Mission|5th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%ED%8C%80%EB%B0%9C%ED%91%9C/%EC%9C%A0%EC%9E%90%EC%B0%A8%20%EC%A0%84%EC%B2%B4%20%EB%B0%9C%ED%91%9C_3.pdf)|
 
 - Hoseong Lee:			hslee00001@naver.com
 
@@ -308,11 +338,16 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 
 |Subject|Title|Link|
 |-|-|-|
-|FPGA|ModelSim Usage I|[pdf]()|
-|FPGA|ModelSim Installation on Linux|[pdf]()|
-|FPGA|Verilog Basic Grammar|[pdf]()|
-|FPGA|Can Communication between Zybo Boards|[pdf]()|
-|FPGA|Can Communication Vivado SDK Analysis|[pdf]()|
+|FPGA|ModelSim Usage I|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/modelsim%20%EC%82%AC%EC%9A%A9%EB%B2%951%20-%20modelsim%EC%97%90%EC%84%9C%20%EC%BD%94%EB%93%9C%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%20%EB%B0%8F%20%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98.pdf)|
+|FPGA|ModelSim Installation on Linux|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/modelsim(intel)%20install.pdf)|
+|FPGA|Verilog Basic Grammar|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/verilog-1.pdf)|
+|FPGA|Can Communication between Zybo Boards|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/can%ED%86%B5%EC%8B%A0%20sdk.pdf)|
+|FPGA|Can Communication Vivado SDK Analysis|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/zybo%20%EA%B0%84%EC%9D%98%20pmod%20%EC%BA%94%ED%86%B5%EC%8B%A0%20%EC%98%88%EC%A0%9C.pdf)|
+|FPGA|Petalinux Based SPI Loopback|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/SPI%20-%20petalinux.pdf)|
+|Tools|Kernel Driving Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/petalinux%20%EC%BB%A4%EB%84%90%EC%9D%98%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B9%99-1.pdf)|
+|FPGA|Understanding of Device Tree|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%ED%8A%B8%EB%A6%AC%20%EC%9D%B4%ED%95%B4.pdf)|
+|FPGA|SPI on Petalinux|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/SPI%20-%20petalinux.pdf)|
+|FPGA|I2C MPU6050 Verilog Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/i2c%20mpu6050-verilog.pdf)|
 
 - Hyungjun Yu:			love592946@naver.com
 
@@ -326,6 +361,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |-|-|-|
 |Week Mission|1st Mission(DMA)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/DMA(18.07.18)-%EB%AC%B8%EC%A7%80%ED%9D%AC.pdf)|
 |Week Mission|2nd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/6%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C-%EB%AC%B8%EC%A7%80%ED%9D%AC.pdf)|
+|Week Mission|3rd Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/10%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C-%EB%AC%B8%EC%A7%80%ED%9D%AC.pdf)|
 |FPGA|Zynq Zybo FPGA|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/ZYBO_PWM_IP_CREATE.pdf)|
 |FPGA|Zynq Zybo Petalinux v2015.4|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/petalinux(v2015-4).pdf)|
 |FPGA|Zynq Zybo PWM IP Creation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/ZYBO_PWM_IP_CREATE.pdf)|
@@ -352,7 +388,20 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |MCU|SPI Need to Modify|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%95%88%EC%83%81%EC%9E%AC/SPI%20%EA%B5%AC%ED%98%84(MCU-MCU).pdf)|
 |MCU|Collision Warn Sound Buzzer|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/BUZZER.pdf)|
 |MCU|Ultrasonic HC SR-04 Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Ultrasonic%20Ranging%20Module%20HC%20-%20SR04.pdf)|
+|MCU|FM Radio with STM32F407|[pdf](https://github.com/KOITT2/RC_Car/blob/master/mcu_proj/FM%20Radio%20%EC%84%A4%EA%B3%84%20%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)|
+|STM32F4|Getting Started STM32 with TrueStudio|[pdf](https://github.com/KOITT2/RC_Car/blob/master/Getting%20Started%20STM32%20with%20True%20STUDIO%20%26%20CubeMx.pdf)|
 |FreeRTOS|All Summation MCU Code|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/FreeRTOS)|
+|Week Mission|1st Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%8C%80%EB%B0%9C%ED%91%9C/9%EC%A3%BC%EC%B0%A8%20%EB%9D%BC%EC%A0%A0%EC%B9%B4%20%EB%B0%9C%ED%91%9C.pdf)|
+|PCB|Add Library on Altium|[pdf](https://github.com/KOITT2/RC_Car/blob/master/pcb/install%20Library%20based%20on%20Alitum.pdf)|
+|PCB|Altium Based Circuit Simulation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/pcb/Schematic%2C%20Simulation%2C%20PCB%20Design%20(Altium).pdf)|
+|Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%8C%80%EB%B0%9C%ED%91%9C/10%EC%A3%BC%EC%B0%A8%20%EB%9D%BC%EC%A0%A0%EC%B9%B4%20%EB%B0%9C%ED%91%9C.pdf)|
+|Circuit|Practical IR2110 Based Circuit|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/IR2110%20TEST.pdf)|
+|Circuit|Practical IR2110 + TL494 Based Circuit|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/IR2110%2BTL494%20TEST.pdf)|
+|Circuit|LM2576-ADJ Based DC-DC Converter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/DCDC%20converter%20based%20on%20LM2576-adj.pdf)|
+|Circuit|TL494 Based DC-DC Converter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/DCDC%20converter%20based%20on%20TL494.pdf)|
+|Circuit|TL494 + IR2110 Based DC-DC Converter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/DC-DC%20CONVERTER%20TEST%20(IR2110%2BTL494).pdf)|
+|Circuit|TL494 Based DC-DC Converter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/DCDC%20converter%20based%20on%20TL494.pdf)|
+|Circuit|Astable Multivibrator Analysis|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/%EB%B9%84%EC%95%88%EC%A0%95%20%EB%A9%80%ED%8B%B0%EB%B0%94%EC%9D%B4%EB%B8%8C%EB%A0%88%EC%9D%B4%ED%84%B0%20%ED%9A%8C%EB%A1%9C%20%EB%B6%84%EC%84%9D.pdf)|
 
 - Soojeong Hwang:		sue100012@naver.com
 

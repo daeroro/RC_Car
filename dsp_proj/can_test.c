@@ -63,7 +63,8 @@ void serial(char* dev)
        int    poll_state;
        int i;
        // 시리얼 포트를 open
-       fd = open( dev, O_RDWR | O_NOCTTY | O_NONBLOCK );        // 디바이스를 open 한다.
+       //fd = open( dev, O_RDWR | O_NOCTTY | O_NONBLOCK );        // 디바이스를 open 한다.
+       fd = open( dev, O_RDWR | O_NOCTTY );
 	printf("fd = %d\n", fd);
        if ( 0 > fd)
        {

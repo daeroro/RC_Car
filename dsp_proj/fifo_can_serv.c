@@ -306,7 +306,7 @@ void *fpga_rx(void *fd)
 
 	for(;;)
 	{
-		if((rlen = read(fpga_sock, data, sizeof(data)) != 0)
+		if((rlen = read(fpga_sock, data, sizeof(data))) != 0)
 			write(fpga_sock, msg, len);
 
 		usleep(1000);

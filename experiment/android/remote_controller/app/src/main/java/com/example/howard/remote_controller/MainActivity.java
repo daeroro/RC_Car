@@ -4,12 +4,14 @@ import android.annotation.SuppressLint;
 import android.os.Handler;
 import android.os.Message;
 import android.os.StrictMode;
+import android.os.health.TimerStat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -18,20 +20,28 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.Socket;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity {
     public EditText ip, port, tx_msg, rx_msg;
-    public Button connect_btn, disconnect_btn, send_btn, send_up, send_down, send_left, send_right, send_stop;
-    public TextView vel, ang;
+    public Button connect_btn, disconnect_btn, send_btn, send_up, send_down, send_stop;
+    public TextView vel;
+    public SeekBar ang_seek;
+    public TextView seek_test;
     public String msg, recv;
     public Socket socket;
     public int veloc = 1500, servo = 1500;
-
+    public int seek = 1500;
 
     private Handler mHandler = new Handler();
 
     private DataOutputStream writeSocket;
     private InputStream input;
+
+    private TimerTask mTask;
+    private Timer mTimer;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
 
         StrictMode.ThreadPolicy policy=new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
+
+        vel = (TextView)findViewById(R.id.view_veloc);
 
 
         //ip, port, tx_msg, rx_msg를 각각의 EditText와 연결
@@ -55,9 +67,66 @@ public class MainActivity extends AppCompatActivity {
 
         send_up = (Button)findViewById(R.id.button);
         send_down = (Button)findViewById(R.id.button2);
-        send_right = (Button)findViewById(R.id.button3);
-        send_left = (Button)findViewById(R.id.button4);
+
         send_stop = (Button)findViewById(R.id.button5);
+
+        ang_seek = (SeekBar)findViewById(R.id.ang_seek);
+        seek_test = (TextView)findViewById(R.id.textView4);
+
+        mTask = new TimerTask() {
+            @Override
+            public void run() {
+
+                try {
+                    int num;
+                    if(!ang_seek.isPressed()) {
+                        if ((num = ang_seek.getProgress()) < 10) {
+
+                            num += 1;
+                            //seek_test.setText(Integer.toString(num));
+                            ang_seek.setProgress(num);
+                        } else if ((num = ang_seek.getProgress()) > 10) {
+                            num -= 1;
+                            //seek_test.setText(Integer.toString(num));
+                            ang_seek.setProgress(num);
+                        }
+                    }
+                }catch(Exception e){
+
+                }
+            }
+        };
+        mTimer = new Timer();
+        mTimer.schedule(mTask,3, 200);
+
+        ang_seek.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
+                seek = 500 + (20-i)*100;
+                seek_test.setText(Integer.toString(seek));
+                try {
+                    byte[] msg = new byte[10240];
+                    if(seek >= 1000)
+                        msg = ("12 " +Integer.toString(seek) + "0000").getBytes();
+                    else
+                        msg = ("12 0" +Integer.toString(seek) + "0000").getBytes();
+
+                    writeSocket.write(msg, 0, msg.length);
+                }catch(Exception e){
+
+                }
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+
+            }
+        });
 
         //connect_btn 버튼 클릭 이벤트 설정
         connect_btn.setOnClickListener(new View.OnClickListener() {
@@ -99,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
         send_up.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
-                (new send_u()).start();
+                    (new send_u()).start();
             }
         });
 
@@ -110,19 +179,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        send_right.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view){
-                (new send_r()).start();
-            }
-        });
-
-        send_left.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view){
-                (new send_l()).start();
-            }
-        });
 
         send_stop.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -132,9 +188,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-
     }
-    //소켓 연결 클래스
+    //소켓 연결 클래스1
     class Connect extends Thread {
         public void run() {
 
@@ -216,7 +271,6 @@ public class MainActivity extends AppCompatActivity {
                 byte[] msg = new byte[10240];
                 msg = tx_msg.getText().toString().getBytes();
                 writeSocket.write(msg,0, msg.length);
-                veloc = 1530;
                 mHandler.post(new Runnable() {
                     @Override
                     public void run() {
@@ -241,20 +295,27 @@ public class MainActivity extends AppCompatActivity {
     class send_u extends Thread {
         public void run() {
             try {
-                if(veloc < 2000)
-                    veloc += 1;
-                String tx = "13 " + Integer.toString(veloc) + "0000";
-                byte[] msg = new byte[10240];
-                msg = tx.getBytes();
-                writeSocket.write(msg,0, msg.length);
-                //          vel.setText(Integer.toString(veloc));
-                mHandler.post(new Runnable() {
-                    @Override
-                    public void run() {
-                        // TODO Auto-generated method stub
-                        setToast("메세지 전송 성공");
-                    }
-                });
+                    if (veloc < 1530 && veloc > 1470)
+                        veloc = 1530;
+                    else if (veloc < 2000)
+                        veloc += 3;
+                    String tx = "13 " + Integer.toString(veloc) + "0000";
+                    byte[] msg = new byte[10240];
+                    msg = tx.getBytes();
+                    writeSocket.write(msg, 0, msg.length);
+                    //          vel.setText(Integer.toString(veloc));
+                    for(int i=0;i<300000;i++)
+                        ;
+
+                    mHandler.post(new Runnable() {
+                        @Override
+                        public void run() {
+                            // TODO Auto-generated method stub
+                            vel.setText(Integer.toString(veloc));
+                            setToast("메세지 전송 성공");
+                        }
+                    });
+
             } catch (Exception e) {
                 final String recvInput = "메시지 전송에 실패하였습니다.";
                 Log.d("Message", e.getMessage());
@@ -272,8 +333,10 @@ public class MainActivity extends AppCompatActivity {
     class send_d extends Thread {
         public void run() {
             try {
-                if(veloc > 1000)
-                    veloc -= 1;
+                if(veloc > 1470 && veloc < 1530)
+                    veloc = 1470;
+                else if(veloc > 1000)
+                    veloc -= 3;
                 String tx = "13 " + Integer.toString(veloc) + "0000";
                 byte[] msg = new byte[10240];
                 msg = tx.getBytes();
@@ -283,7 +346,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         // TODO Auto-generated method stub
-
+                        vel.setText(Integer.toString(veloc));
                         setToast("메세지 전송 성공");
                     }
                 });
@@ -301,73 +364,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    class send_l extends Thread {
-        public void run() {
-            try {
-                if(servo < 2500)
-                    servo += 500;
-
-                String tx = "12 " + Integer.toString(servo) + "0000";
-                byte[] msg = new byte[10240];
-                msg = tx.getBytes();
-                writeSocket.write(msg,0, msg.length);
-
-//                ang.setText(Integer.toString(servo));
-                mHandler.post(new Runnable() {
-                    @Override
-                    public void run() {
-                        // TODO Auto-generated method stub
-                        setToast("메세지 전송 성공");
-                    }
-                });
-            } catch (Exception e) {
-                final String recvInput = "메시지 전송에 실패하였습니다.";
-                Log.d("Message", e.getMessage());
-                mHandler.post(new Runnable() {
-                    @Override
-                    public void run() {
-                        // TODO Auto-generated method stub
-                        setToast(recvInput);
-                    }
-                });
-            }
-        }
-    }
-
-    class send_r extends Thread {
-        public void run() {
-            try {
-                if(servo > 500)
-                    servo -= 500;
-                String tx;
-                if(servo != 500)
-                    tx = "12 " + Integer.toString(servo) + "0000";
-                else
-                    tx = "12 05000000";
-                byte[] msg = new byte[10240];
-                msg = tx.getBytes();
-                writeSocket.write(msg,0, msg.length);
-                //              ang.setText(Integer.toString(servo));
-                mHandler.post(new Runnable() {
-                    @Override
-                    public void run() {
-                        // TODO Auto-generated method stub
-                        setToast("메세지 전송 성공");
-                    }
-                });
-            } catch (Exception e) {
-                final String recvInput = "메시지 전송에 실패하였습니다.";
-                Log.d("Message", e.getMessage());
-                mHandler.post(new Runnable() {
-                    @Override
-                    public void run() {
-                        // TODO Auto-generated method stub
-                        setToast(recvInput);
-                    }
-                });
-            }
-        }
-    }
 
     class send_s extends Thread {
         public void run() {
@@ -383,6 +379,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         // TODO Auto-generated method stub
+                        vel.setText(Integer.toString(veloc));
                         setToast("메세지 전송 성공");
                     }
                 });
