@@ -19,14 +19,39 @@ int main(void)
 }
 ```
 
-# team
+## Contents
 
-- [Sanghoon Lee](#sanghoon-Lee)
+- [Projects](#projects)
+  - [Bean Mapping](#bean-mapping)
+  - [Build](#build)
+  - [Bytecode Manipulation](#byte
 
-# Master
 
-## Sanghoon Lee
-mail:         gcccompil3r@gmail.com
+## Projects
+
+### Bean Mapping
+
+*Frameworks that ease bean mapping.*
+
+- [Dozer](https://github.com/DozerMapper/dozer) - Mapper that copies data from one object to another using annotations and API or XML configuration.
+- [JMapper](https://jmapper-framework.github.io/jmapper-core) - Uses byte code manipulation for lightning-fast mapping. Supports annotations and API or XML configuration.
+- [MapStruct](https://github.com/mapstruct/mapstruct) - Code generator that simplifies mappings between different bean types, based on a convention-over-configuration approach.
+- [ModelMapper](https://github.com/jhalterman/modelmapper) - Intelligent object mapping library that automatically maps objects to each other.
+- [Orika](https://github.com/orika-mapper/orika) - JavaBean-mapping framework that recursively copies (among other capabilities) data from one object to another.
+- [Selma](https://github.com/xebia-france/selma) - Annotation processor-based bean mapper.
+
+### Build
+
+*Tools that handle the build cycle and dependencies of an application.*
+
+- [Apache Maven](https://maven.apache.org) - Declarative build and dependency management that favors convention over configuration. It might be preferable to Apache Ant, which uses a rather procedural approach and can be difficult to maintain.
+- [Bazel](https://bazel.io) - Tool from Google that builds code quickly and reliably.
+- [Buck](https://github.com/facebook/buck) - Encourages the creation of small, reusable modules consisting of code and resources.
+- [Gradle](https://gradle.org) - Incremental builds programmed via Groovy instead of declaring XML. Works well with Maven's dependency management.
+
+### Bytecode Manipulation
+
+
 
 # Important Project Issue
 
