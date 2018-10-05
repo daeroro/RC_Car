@@ -142,6 +142,7 @@ Member - [Hyungju Kim](https://github.com/KOITT2/RC_Car/blob/master/README.md#L1
 |DSP|Fifo Based Can Server with FPGA Lan Server|[link](https://github.com/KOITT2/RC_Car/blob/master/dsp_proj/fifo_can_serv_final.c)|
 |DSP|AM5728 ALSA Sound Driver Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_ALSA_Driver_Setting.pdf)|
 |DSP|Sound Engineering|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_Sound_Engineering_1.pdf)|
+|DSP|Audio Signal Processing 1|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Audio_Signal_Processing_1.pdf)|
 
 # Member
 - Hyungju Kim:			mihaelkel@naver.com
