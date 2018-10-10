@@ -54,6 +54,12 @@ int **get_array(int x, int y)
 	return tmp;
 }
 
+sort(int **arr)
+{
+	int i1, i2, j1, j2;
+	int key, len = 2;
+}
+
 void find_path(void)
 {
 	int found = 0, resign = 0;
