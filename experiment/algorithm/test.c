@@ -28,7 +28,33 @@ int **extract_pattern(int (*card)[3])
 
 int ***make_new_pattern(int **arr)
 {
-	
+	int i, j, k;
+
+	int ***tmp = (int ***)malloc(sizeof(int ***) * 3);
+
+	printf("new pattern = \n");
+
+	for(i = 0; i < 3; i++)
+	{
+		tmp[i] = (int **)malloc(sizeof(int **) * 2);
+
+		for(j = 0; j < 2; j++)
+		{
+			tmp[i][j] = (int *)malloc(sizeof(int *) * 2);
+
+			for(k = 0; k < 1; k++)
+			{
+				tmp[i][j][k] = arr[i][j];
+				tmp[i][j][k + 1] = j;
+			}
+
+			printf("{%3d, %3d}\t", tmp[i][j][0], tmp[i][j][1]);
+		}
+
+		printf("\n");
+	}
+
+	return tmp;
 }
 
 #if 0
@@ -68,12 +94,15 @@ int main(void)
 	int sublen = 3;
 	int key[3] = {0};
 	int subkey;
+	int **arr;
+	int ***tmp;
 	int i, j, k;
 
 	printf("len = %d\n", len);
 	printf("sublen = %d\n", sublen);
 
 	arr = extract_pattern(card);
+	tmp = make_new_pattern(arr);
 	//sort_pattern(card, pat);
 
 #if 0
