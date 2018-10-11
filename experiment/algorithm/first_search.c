@@ -9,6 +9,14 @@ typedef struct _arr_manage
 	int **arr;
 } arr_manage;
 
+typedef struct _queue
+{
+	struct _queue *link;
+	int g;
+	int x;
+	int y;
+} queue;
+
 int grid[6][6] =	{
 						{0, 0, 1, 0, 0, 0},
 						{0, 0, 1, 0, 0, 0},
@@ -37,22 +45,6 @@ int delta[4][2] = 	{
 
 char name[4] = {'^', '<', 'v', '>'};
 
-void print_arr(int **arr, int x, int y)
-{
-	int i, j;
-
-	printf("arr = \n");
-
-	for(i = 0; i < x; i++)
-	{
-		for(j = 0; j < y; j++)
-			printf("%3d", arr[i][j]);
-
-		printf("\n");
-	}
-
-}
-
 int **get_array(int x, int y)
 {
 	int i;
@@ -64,13 +56,25 @@ int **get_array(int x, int y)
 	return tmp;
 }
 
-void transform_format(int *res, int (*arr)[3])
+void print_arr(arr_manage *am)
+{
+	int i;
+
+	printf("arr = \n");
+
+	for(i = 0; i < am->y; i++)
+		printf("%4d", am->arr[0][i]);
+
+	printf("\n");
+}
+
+void transform_format(int *res, arr_manage *am)
 {
     int i, j;
 
-    for(i = 0; i < 3; i++)
-        for(j = 0; j < 3; j++)
-            res[i] += arr[i][j] * pow(10, 2 - j); 
+    for(i = 0; i < am->y; i++)
+        for(j = 0; j < am->x; j++)
+            res[i] += am->arr[i][j] * pow(10, 2 - j); 
 }
 
 void sort_descend(int *arr)
@@ -88,7 +92,7 @@ void sort_descend(int *arr)
     }
 }
 
-void inverse_transform(int *arr, int (*res)[3])
+void inverse_transform(int *arr, int **res)
 {
     int i, j;
 
@@ -111,15 +115,46 @@ void get_arr_manage(int x, int y, arr_manage **am)
 		(*am)->arr[i] = (int *)malloc(sizeof(int) * x);
 }
 
+queue *get_queue_node(void)
+{
+	queue *tmp;
+	tmp = (queue *)malloc(sizeof(queue));
+	tmp->g = 0;
+	tmp->x = 0;
+	tmp->y = 0;
+
+	return tmp;
+}
+
+void enqueue(queue **head, int g, int x, int y)
+{
+	queue **tmp = head;
+
+	while(*tmp)
+		tmp = &(*tmp)->link;
+
+	*tmp = get_queue_node();
+
+	(*tmp)->g = g;
+	(*tmp)->x = x;
+	(*tmp)->y = y;
+}
+
 void find_path(void)
 {
+	int i;
 	int found = 0, resign = 0;
 
-	int x = init[0];
-	int y = init[1];
-	int g = 0;
+	int x = init[0], x2;
+	int y = init[1], y2;
+	int g = 0, g2;
+
+	queue *head = NULL;
 
 	arr_manage *open = NULL;
+	arr_manage *closed = NULL;
+
+	arr_manage *ir = NULL;
 
 #if 0
 	int **open = get_array(3, 1);
@@ -134,21 +169,65 @@ void find_path(void)
 	open->arr[0][1] = x;
 	open->arr[0][2] = y;
 
-#if 1
+#if 0
 	int **closed = get_array(6, 6);
 	closed[init[0]][init[1]] = 1;
 #endif
 
+	get_arr_manage(6, 6, &closed);
+	closed->arr[init[0]][init[1]] = 1;
+
+	get_arr_manage(open->y + 1, 1, &ir);
+
 	while(!found && !resign)
 	{
-		/*
-			sort();
-			reverse();
-			pop();
-		*/
-	}
+		if(!(open->y))
+		{
+			resign = 1;
+			printf("failed to find path\n");
+			exit(-1);
+		}
+		else
+		{
+			transform_format(ir->arr[0], open);
+			sort_descend(ir->arr[0]);
+			//print_arr(ir);
 
-	print_arr(closed, 6, 6);
+			if(!(ir->arr[0][0]))
+			{
+				g = 0;
+				x = 0;
+				y = 0;
+			}
+
+			if(x == goal[0] && y == goal[1])
+				found = 1;
+			else
+			{
+				for(i = 0; i < 4; i++)
+				{
+					x2 = x + delta[i][0];
+					y2 = y + delta[i][1];
+
+					if(x2 >= 0 && x2 < closed->y && y2 >= 0 && y2 < closed->x)
+					{
+						if(!(closed->arr[x2][y2]) && !grid[x2][y2])
+						{
+							g2 = g + cost;
+							enqueue(&head, g2, x2, y2);
+							closed->arr[x2][y2] = 1;
+						}
+					}
+				}
+			}
+
+			/*
+				sort();
+				reverse();
+				pop();
+			*/
+		}
+	}
 }
 
 int main(void)
