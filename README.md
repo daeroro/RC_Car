@@ -57,14 +57,13 @@ int main(void)
 
 There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.15.
 
-# Contribution Summary
+## Contribution Summary
 
-Master - [Sanghoon Lee](#sanghoon-lee)
+- [Sanghoon Lee](#sanghoon-lee)
 
 Member - [Hyungju Kim](https://github.com/KOITT2/RC_Car/blob/master/README.md#L113)
 
-# Master
-## Sanghoon Lee:			gcccompil3r@gmail.com
+### Sanghoon Lee:			gcccompil3r@gmail.com
 
 ![sanghoon](./member_profile/sanghoon_profile_1.jpg)
 
