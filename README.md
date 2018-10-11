@@ -446,7 +446,7 @@ Member - [Hyungju Kim](https://github.com/KOITT2/RC_Car/blob/master/README.md#L1
 |MCU|Collision Warn Sound Buzzer|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/BUZZER.pdf)|
 |MCU|Ultrasonic HC SR-04 Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Ultrasonic%20Ranging%20Module%20HC%20-%20SR04.pdf)|
 |MCU|FM Radio with STM32F407|[pdf](https://github.com/KOITT2/RC_Car/blob/master/mcu_proj/FM%20Radio%20%EC%84%A4%EA%B3%84%20%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)|
-|STM32F4|Getting Started STM32 with TrueStudio|[pdf](https://github.com/KOITT2/RC_Car/blob/master/Getting%20Started%20STM32%20with%20True%20STUDIO%20%26%20CubeMx.pdf)|
+|STM32F4|Getting Started STM32 with TrueStudio|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Getting%20Started%20STM32%20with%20True%20STUDIO%20%26%20CubeMx.pdf)|
 |STM32F4|GPIO Control with STM32F407|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/GPIO%20based%20on%20stm32.pdf)|
 |STM32F4|UART Control with STM32F407|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/UART%20based%20on%20stm32.pdf)|
 |STM32F4|Timer Based PWM with STM32F407|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TIMER%20%26%20PWM%20control%20with%20STM32F407.pdf)|
