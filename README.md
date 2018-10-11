@@ -79,6 +79,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 
 Member - [Hyungju Kim](https://github.com/KOITT2/RC_Car/blob/master/README.md#L113)
 
+## Master
 ### Sanghoon Lee
 ### E-mail Address - gcccompil3r@gmail.com
 
