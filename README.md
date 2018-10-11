@@ -222,8 +222,8 @@ Member - [Hyungju Kim](https://github.com/KOITT2/RC_Car/blob/master/README.md#L1
 |Control Theory|PID Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/PID%EC%A0%9C%EC%96%B4_%EC%9E%A5%EC%84%B1%ED%99%98.pdf)
 |Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%ED%8C%80%EB%B0%9C%ED%91%9C/%EC%9C%A0%EC%9E%90%EC%B0%A8%20%EC%A0%84%EC%B2%B4%20%EB%B0%9C%ED%91%9C2.pdf)|
 |FPGA|eQEP High Speed Counter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/FPGA_EQEP_highspeedmode.pdf)|
-|FPGA|eQEP Low Speed Counter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/FPGA_EQEP_lowspeedmode.pdf)|
-|FPGA|eQEP with Petalinux|[pdf](https://github.com/KOITT2/RC_Car/blob/master/FPGA_EQEP_petalinux.pdf)|
+|FPGA|eQEP Low Speed Counter|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/FPGA_EQEP_lowspeedmode.pdf)|
+|FPGA|eQEP with Petalinux|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/FPGA_EQEP_petalinux.pdf)|
 |Algorithm|Numerical Analysis with C|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/Algorithm_first_step.pdf)|
 |MCU|Gas Pedal Control with Light Sensor|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/Manual%20Acc%20control%20Using%20LightSensor.pdf)|
 |BOM|Final BOM|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/%EC%B5%9C%EC%A2%85%20BOM.pdf)|
