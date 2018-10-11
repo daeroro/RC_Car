@@ -39,14 +39,45 @@ void print_orig_form(int (*arr)[3])
 	printf("\n");
 }
 
+void sort_ascend(int *arr)
+{
+	int i, j, key, len = 3;
+
+	for(i = 1; i < len; i++)
+	{
+		key = arr[i];
+
+		for(j = i - 1; arr[j] > key; j--)
+			arr[j + 1] = arr[j];
+
+		arr[j + 1] = key;
+	}
+}
+
+void inverse_transform(int *arr, int (*res)[3])
+{
+	int i, j;
+
+	for(i = 0; i < 3; i++)
+		for(j = 0; j < 3; j++)
+			res[i][j] = (int)(arr[i] / pow(10, 2 - j)) % 10;
+}
+
 int main(void)
 {
 	int res[3] = {0};
+	int real[3][3] = {0};
 	int arr[3][3] = {{4, 0, 1}, {3, 3, 2}, {3, 0, 1}};
 
 	print_orig_form(arr);
 	transform_format(res, arr);
 	print_arr(res);
+
+	sort_ascend(res);
+	print_arr(res);
+
+	inverse_transform(res, real);
+	print_orig_form(real);
 
 	return 0;
 }
