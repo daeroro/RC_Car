@@ -76,6 +76,8 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 
 - [Master](#master)
   - [Sanghoon Lee](#sanghoon-lee)
+- [Member](#member)
+  - [Sangjae Ahn](#sangjae-ahn)
 
 Member - [Hyungju Kim](https://github.com/KOITT2/RC_Car/blob/master/README.md#L113)
 
@@ -163,7 +165,8 @@ Member - [Hyungju Kim](https://github.com/KOITT2/RC_Car/blob/master/README.md#L1
 |DSP|Sound Engineering|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/AM5728_Sound_Engineering_1.pdf)|
 |DSP|Audio Signal Processing 1|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Audio_Signal_Processing_1.pdf)|
 
-# Member
+## Member
+
 - Hyungju Kim:			mihaelkel@naver.com
 
 ![hyungju](./member_profile/hyungju_profile_1.jpg)
@@ -432,7 +435,8 @@ Member - [Hyungju Kim](https://github.com/KOITT2/RC_Car/blob/master/README.md#L1
 |-|-|-|
 |FreeRTOS|RTOS Example Analaysis & Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9C%A4%EC%A7%80%EC%99%84/rtos.pdf)|
 
-- Sangjae Ahn:			sangjae2015@naver.com
+### Sangjae Ahn
+### E-mail Address - sangjae2015@naver.com
 
 ![sangjae](./member_profile/sangjae_profile_1.jpg)
 
