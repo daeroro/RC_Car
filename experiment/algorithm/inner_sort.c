@@ -57,8 +57,7 @@ int ***make_new_pattern(int **arr)
 	return tmp;
 }
 
-#if 0
-int sort_ascend()
+void sort_ascend(int *card)
 {
 	int i, j, key, len = 2;
 
@@ -70,12 +69,10 @@ int sort_ascend()
 			card[j + 1] = card[j];
 
 		card[j + 1] = key;
-	}
-
-	if(card[0] == card[1])
-		
+	}	
 }
 
+#if 0
 void sort_pattern(int (*arr)[3], pattern pat)
 {
 	int i, j, k;
@@ -87,6 +84,57 @@ void sort_pattern(int (*arr)[3], pattern pat)
 }
 #endif
 
+void print_arr(int ***arr)
+{
+	int i, j, k;
+
+	for(i = 0; i < 3; i++)
+	{
+		for(j = 0; j < 2; j++)
+			printf("{%3d, %3d}\t", arr[i][j][0], arr[i][j][1]);
+
+		printf("\n");
+	}
+}
+
+int sort_arr(int **arr)
+{
+	int i, j, key1, key2, len = 2;
+
+	for(i = 1; i < len; i++)
+	{
+		key1 = arr[i][0];
+		key2 = arr[i][1];
+
+		for(j = i - 1; j != -1 && arr[j][0] > key1; j--)
+		{
+			arr[j + 1][0] = arr[j][0];
+			arr[j + 1][1] = arr[j][1];
+		}
+
+		arr[j + 1][0] = key1;
+		arr[j + 1][1] = key2;
+	}
+
+	return arr[0][1];
+}
+
+void sort_pattern(int ***tmp)
+{
+	int i, j, k;
+	int storage[4] = {0};
+
+	printf("idx storage = \n");
+
+	for(i = 0; i < 3; i++)
+	{
+		storage[i] = sort_arr(tmp[i]);
+		printf("%3d", storage[i]);
+	}
+
+	printf("\n");
+}
+
 int main(void)
 {
 	int card[2][3] = {{1, 1, 0}, {1, 0, 1}};
@@ -94,8 +142,11 @@ int main(void)
 	int sublen = 3;
 	int key[3] = {0};
 	int subkey;
+
+	int **res;
 	int **arr;
 	int ***tmp;
+
 	int i, j, k;
 
 	printf("len = %d\n", len);
@@ -103,6 +154,9 @@ int main(void)
 
 	arr = extract_pattern(card);
 	tmp = make_new_pattern(arr);
+	sort_pattern(tmp);
+	printf("After Sort = \n");
+	print_arr(tmp);
 	//sort_pattern(card, pat);
 
 #if 0
