@@ -296,6 +296,7 @@ Member - [Hyungju Kim](https://github.com/KOITT2/RC_Car/blob/master/README.md#L1
 |FPGA|FPGA Based SPI Control|[pdf](https://github.com/KOITT2/RC_Car/tree/master/fpga_proj/spi_master_system)|
 |FPGA|Petalinux Based Autorun Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/petalinux_autorun.pdf)|
 |FPGA|FPGA Based MPU9250 Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/fpga_MPU9250/MPU9250_AutoRun.pdf)|
+|FPGA|Step Motor IP Based Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/fpga_step_core.pdf)|
 |FPGA|All Integration without Network and Lidar Motor|[link](https://github.com/KOITT2/RC_Car/tree/master/fpga_proj/all_test_2)|
 |FPGA|Final Integration Project|[link](https://github.com/KOITT2/RC_Car/tree/master/fpga_proj/all_test_7)|
 
