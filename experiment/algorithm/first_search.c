@@ -1,6 +1,7 @@
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 typedef struct _arr_manage
 {
@@ -9,6 +10,7 @@ typedef struct _arr_manage
 	int **arr;
 } arr_manage;
 
+#if 0
 typedef struct _queue
 {
 	struct _queue *link;
@@ -16,6 +18,15 @@ typedef struct _queue
 	int x;
 	int y;
 } queue;
+#endif
+
+typedef struct _stack
+{
+	struct _stack *link;
+	int g;
+	int x;
+	int y;
+} stack;
 
 int grid[6][6] =	{
 						{0, 0, 1, 0, 0, 0},
@@ -115,6 +126,7 @@ void get_arr_manage(int x, int y, arr_manage **am)
 		(*am)->arr[i] = (int *)malloc(sizeof(int) * x);
 }
 
+#if 0
 queue *get_queue_node(void)
 {
 	queue *tmp;
@@ -139,6 +151,73 @@ void enqueue(queue **head, int g, int x, int y)
 	(*tmp)->x = x;
 	(*tmp)->y = y;
 }
+#endif
+
+stack *get_stack_node(void)
+{
+	stack *tmp;
+	tmp = (stack *)malloc(sizeof(stack));
+	tmp->link = NULL;
+	return tmp;
+}
+
+stack *push(stack *top, int g, int x, int y)
+{
+	stack *tmp;
+	tmp = top;
+	top = get_stack_node();
+	top->g = g;
+	top->x = x;
+	top->y = y;
+	top->link = tmp;
+
+	return top;
+}
+
+stack *pop(stack *top, int *arr)
+{
+	stack *tmp;
+	tmp = top;
+
+	if(!top)
+	{
+		printf("Stack is empty!\n");
+		return 0;
+	}
+
+	memmove(arr, &tmp->g, 12);
+	top = tmp->link;
+	free(tmp);
+	return top;
+}
+
+stack *modify_arr(arr_manage *am, stack *top, int cnt)
+{
+	int i, j, x = am->x, y = am->y;
+
+	if(cnt > 1)
+		am->arr = (int **)realloc(am->arr, sizeof(int) * cnt);
+
+	for(i = 0; i < cnt; i++)
+	{
+		int arr[3] = {0};
+		int tmp = 0;
+
+		if(i < y)
+		{
+			top = pop(top, arr);
+			am->arr[i][0] = arr[0];
+			am->arr[i][1] = arr[1];
+			am->arr[i][2] = arr[2];
+
+			continue;
+		}
+
+		am->arr[i] = (int *)malloc(sizeof(int) * x);
+	}
+
+	return top;
+}
 
 void find_path(void)
 {
@@ -149,7 +228,8 @@ void find_path(void)
 	int y = init[1], y2;
 	int g = 0, g2;
 
-	queue *head = NULL;
+	//queue *head = NULL;
+	stack *top = NULL;
 
 	arr_manage *open = NULL;
 	arr_manage *closed = NULL;
@@ -204,6 +284,8 @@ void find_path(void)
 				found = 1;
 			else
 			{
+				int cnt = 0;
+
 				for(i = 0; i < 4; i++)
 				{
 					x2 = x + delta[i][0];
@@ -214,11 +296,14 @@ void find_path(void)
 						if(!(closed->arr[x2][y2]) && !grid[x2][y2])
 						{
 							g2 = g + cost;
-							enqueue(&head, g2, x2, y2);
+							//enqueue(&head, g2, x2, y2);
+							top = push(top, g2, x2, y2);
 							closed->arr[x2][y2] = 1;
+							cnt++;
 						}
 					}
 				}
+				modify_arr(open, top, cnt);
 			}
 
 			/*
