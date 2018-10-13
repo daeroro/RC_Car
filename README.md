@@ -140,6 +140,7 @@ Member - [Hyungju Kim](https://github.com/KOITT2/RC_Car/blob/master/README.md#L1
 |Algorithm|Insertion Sort Descending|[link](https://github.com/KOITT2/RC_Car/blob/master/experiment/algorithm/insert_sort_descend.c)|
 |Algorithm|Internal Element Sort|[link](https://github.com/KOITT2/RC_Car/blob/master/experiment/algorithm/form_arr_sort.c)|
 |Algorithm|Internal Element Descending Sort|[link](https://github.com/KOITT2/RC_Car/blob/master/experiment/algorithm/form_arr_descend_sort.c)|
+|Algorithm|Red Black Tree Based Min Array Extraction|[link](https://github.com/KOITT2/RC_Car/blob/master/experiment/algorithm/rbt_arr_extract.c)|
 |CCS|How to Install CCS on Windows|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_Install_CCS_on_Windows.pdf)|
 |Arduino|How to Install Arduino on Windows|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/How_to_Install_Arduino_on_Windows.pdf)|
 |Design|TI AM5728 OpenCL Architecture|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/OpenCL_with_TI_AM5728.pdf)|
