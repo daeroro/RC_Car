@@ -165,7 +165,13 @@ void rb_tree_ins_helper(rb_tree **tree, rb_node *z)
 		printf("\n");
 		//printf("cnt = %d\n", cnt);
 		//if(x->data > z->data)
+#if 0
 		if(memcmp(x->data, z->data, 12))
+			x = x->left;
+		else
+			x = x->right;
+#endif
+		if(memcmp(x->data, z->data, 12) > 0)
 			x = x->left;
 		else
 			x = x->right;
@@ -173,7 +179,14 @@ void rb_tree_ins_helper(rb_tree **tree, rb_node *z)
 
 	z->parent = y;
 
+#if 0
 	if(((*tree)->root == y) || (y->data > z->data))
+		y->left = z;
+	else
+		y->right = z;
+#endif
+
+	if(((*tree)->root == y) || memcmp(y->data, z->data, 12) > 0)
 		y->left = z;
 	else
 		y->right = z;
@@ -317,6 +330,22 @@ int data_test(int *n1, int *n2)
 		return 0;
 #endif
 	return (memcmp(n1, n2, 12));
+}
+
+rb_node *rbt_find_min(rb_tree *tree)
+{
+	int tmp;
+
+	rb_node *x = tree->root->left;
+	rb_node *nil = tree->nil;
+
+	if(x == nil)
+		return 0;
+
+	while(x->left != nil)
+		x = x->left;
+
+	return x;
 }
 
 rb_node *rb_tree_find(rb_tree *tree, int *data)
@@ -574,12 +603,11 @@ int main(void)
 
 	rb_tree_print(rbt);
 
-	find = rb_tree_find(rbt, data[0]);
+	find = rbt_find_min(rbt);
 	printf("find = %p\n", find);
 
 	rb_tree_del(rbt, find);
 	printf("\nAfter Delete\n");
-
 	rb_tree_print(rbt);
 
 	rb_tree_ins(&rbt, data, 2);
@@ -589,7 +617,7 @@ int main(void)
 	printf("After Ins\n");
 	rb_tree_print(rbt);
 
-	find = rb_tree_find(rbt, data[4]);
+	find = rbt_find_min(rbt);
 	rb_tree_del(rbt, find);
 
 	printf("\nAfter Delete\n");
