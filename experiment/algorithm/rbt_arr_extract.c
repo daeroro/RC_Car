@@ -1,14 +1,48 @@
 #include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <stdbool.h>
+
+#if 0
+int cnt;
+#endif
+
+int grid[6][6] =	{
+						{0, 0, 1, 0, 0, 0},
+						{0, 0, 1, 0, 0, 0},
+						{0, 0, 1, 0, 0, 0},
+						{0, 0, 0, 0, 1, 0},
+						{0, 0, 1, 1, 1, 0},
+						{0, 0, 0, 0, 1, 0}
+					};
+
+int init[3] = {0, 0};
+int goal[3] = {5, 5};
+int cost = 1;
+
+int delta[4][2] = 	{
+						{-1,  0},
+						{ 0, -1},
+						{ 1,  0},
+						{ 0,  1}
+					};
+
+char name[4] = {'^', '<', 'v', '>'};
+
+typedef struct _arr_manage
+{
+	int x;
+	int y;
+	int **arr;
+} arr_manage;
 
 #define	BLACK	0
 #define	RED		1
 
 typedef struct __rb_node
 {
-	int data;
+	int data[3];
 	int color;
 
 	struct __rb_node *left;
@@ -95,6 +129,18 @@ void rb_right_rotate(rb_tree **tree, rb_node *y)
 	y->parent = x;
 }
 
+void print_arr(char *str, int *arr)
+{
+	int i;
+
+	printf("%s = ", str);
+
+	for(i = 0; i < 3; i++)
+		printf("%3d", arr[i]);
+
+	printf("\t");
+}
+
 void rb_tree_ins_helper(rb_tree **tree, rb_node *z)
 {
 	rb_node *x;
@@ -105,11 +151,21 @@ void rb_tree_ins_helper(rb_tree **tree, rb_node *z)
 	y = (*tree)->root;
 	x = (*tree)->root->left;
 
+	//cnt++;
+
 	while(x != nil)
 	{
 		y = x;
 
-		if(x->data > z->data)
+		// s1 < s2 - minus, s1 = s2 - zero, s1 > s2 - plus
+		printf("memcmp: x->data > z->data = %d\n", memcmp(x->data, z->data, 12));
+		print_arr("x->data", x->data);
+		printf("\n");
+		print_arr("z->data", z->data);
+		printf("\n");
+		//printf("cnt = %d\n", cnt);
+		//if(x->data > z->data)
+		if(memcmp(x->data, z->data, 12))
 			x = x->left;
 		else
 			x = x->right;
@@ -123,14 +179,14 @@ void rb_tree_ins_helper(rb_tree **tree, rb_node *z)
 		y->right = z;
 }
 
-rb_node *rb_tree_ins(rb_tree **tree, int data)
+rb_node *rb_tree_ins(rb_tree **tree, int **data, int idx)
 {
 	rb_node *x;
 	rb_node *y;
 	rb_node *tmp;
 
 	x = (rb_node *)malloc(sizeof(rb_node));
-	x->data = data;
+	memcpy(x->data, data[idx], 12);
 
 	rb_tree_ins_helper(tree, x);
 
@@ -206,12 +262,12 @@ rb_tree *rb_tree_create(void)
 	tmp = rbt->nil = (rb_node *)malloc(sizeof(rb_node));
 	tmp->parent = tmp->left = tmp->right = tmp;
 	tmp->color = BLACK;
-	tmp->data = 0;
+	memset(tmp->data, 0x0, 12);
 
 	tmp = rbt->root = (rb_node *)malloc(sizeof(rb_node));
 	tmp->parent = tmp->left = tmp->right = rbt->nil;
 	tmp->color = BLACK;
-	tmp->data = 0;
+	memset(tmp->data, 0x0, 12);
 
 	return rbt;
 }
@@ -223,17 +279,20 @@ void rb_tree_preorder_print(rb_tree *tree, rb_node *x)
 
 	if(x != tree->nil)
 	{
-		printf("data = %4i, ", x->data);
+		print_arr("data", x->data);
+		//printf("data = %4i, ", x->data);
 
 		if(x->left == nil)
 			printf("left = NULL, ");
 		else
-			printf("left = %4i, ", x->left->data);
+			//printf("left = %4i, ", x->left->data);
+			print_arr("left", x->left->data);
 
 		if(x->right == nil)
 			printf("right = NULL, ");
 		else
-			printf("right = %4i, ", x->right->data);
+			//printf("right = %4i, ", x->right->data);
+			print_arr("right", x->right->data);
 
 		printf("color = %4i\n", x->color);
 
@@ -247,17 +306,20 @@ void rb_tree_print(rb_tree *tree)
 	rb_tree_preorder_print(tree, tree->root->left);
 }
 
-int data_test(int n1, int n2)
+int data_test(int *n1, int *n2)
 {
+#if 0
 	if(n1 > n2)
 		return 1;
 	else if(n1 < n2)
 		return -1;
 	else
 		return 0;
+#endif
+	return (memcmp(n1, n2, 12));
 }
 
-rb_node *rb_tree_find(rb_tree *tree, int data)
+rb_node *rb_tree_find(rb_tree *tree, int *data)
 {
 	int tmp;
 
@@ -271,7 +333,13 @@ rb_node *rb_tree_find(rb_tree *tree, int data)
 
 	while(tmp != 0)
 	{
+#if 0
 		if(x->data > data)
+			x = x->left;
+		else
+			x = x->right;
+#endif
+		if(memcmp(x->data, data, 12) > 0)
 			x = x->left;
 		else
 			x = x->right;
@@ -443,35 +511,88 @@ void rb_tree_del(rb_tree *tree, rb_node *z)
 	}
 }
 
+int check_arr(int **arr, int cur_idx)
+{
+	int i;
+
+	for(i = 0; i < cur_idx; i++)
+		if(!(memcmp(arr[i], arr[cur_idx], 12)))
+			return 1;
+
+	return 0;
+}
+
+int **make_data(int num)
+{
+	int i, j;
+	int **tmp = (int **)malloc(sizeof(int *) * num);
+
+	srand(time(NULL));
+
+	printf("arr = \n");
+
+	for(i = 0; i < num; i++)
+	{
+		tmp[i] = (int *)malloc(sizeof(int) * 3);
+
+		for(j = 0; j < 3; j++)
+		{
+redo:
+			tmp[i][j] = rand() % 9 + 1;
+
+			if(check_arr(tmp, i))
+				goto redo;
+
+			printf("%3d", tmp[i][j]);
+		}
+
+		printf("\n");
+	}
+
+	return tmp;
+}
+
 int main(void)
 {
 	int i, size;
-	int data[21] = {0};
+	int found = 0, resign = 0;
+
+	int **data = NULL;
 
 	rb_tree *rbt = NULL;
 	rb_node *find = NULL;
 
-	srand(time(NULL));
-
-	size = sizeof(data) / sizeof(int) - 1;
-
-	init_rand_arr(data, size);
-
-	for(i = 0; i < size; i++)
-		printf("data[%d] = %d\n", i, data[i]);
+	arr_manage *open = NULL;
+	arr_manage *closed = NULL;
+	
+	data = make_data(10);
 
 	rbt = rb_tree_create();
 
-	for(i = 0; i < size; i++)
-		rb_tree_ins(&rbt, data[i]);
+	rb_tree_ins(&rbt, data, 0);
+	rb_tree_ins(&rbt, data, 1);
 
 	rb_tree_print(rbt);
 
-	find = rb_tree_find(rbt, data[5]);
+	find = rb_tree_find(rbt, data[0]);
+	printf("find = %p\n", find);
 
 	rb_tree_del(rbt, find);
 	printf("\nAfter Delete\n");
 
+	rb_tree_print(rbt);
+
+	rb_tree_ins(&rbt, data, 2);
+	rb_tree_ins(&rbt, data, 3);
+	rb_tree_ins(&rbt, data, 4);
+
+	printf("After Ins\n");
+	rb_tree_print(rbt);
+
+	find = rb_tree_find(rbt, data[4]);
+	rb_tree_del(rbt, find);
+
+	printf("\nAfter Delete\n");
 	rb_tree_print(rbt);
 
 	return 0;
