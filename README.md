@@ -136,6 +136,7 @@ Member - [Hyungju Kim](https://github.com/KOITT2/RC_Car/blob/master/README.md#L1
 |Quadcopter|MissionPlanner on Linux|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MissionPlanner_on_Linux.pdf)|
 |Quadcopter|Radar Based Quadcopter RTF Kit Translation(Korean)|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Radar_Based_Quadcopter_RTF_Kit.pdf)|
 |Android|Android NDK Configuration|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Android_NDK_Env_Set_update_Linux.pdf)|
+|Algorithm|Binary Search|[link](https://github.com/KOITT2/RC_Car/blob/master/experiment/algorithm/binary_search.c)|
 |Algorithm|Insertion Sort|[link](https://github.com/KOITT2/RC_Car/blob/master/experiment/algorithm/insertion_sort.c)|
 |Algorithm|Insertion Sort Descending|[link](https://github.com/KOITT2/RC_Car/blob/master/experiment/algorithm/insert_sort_descend.c)|
 |Algorithm|Internal Element Sort|[link](https://github.com/KOITT2/RC_Car/blob/master/experiment/algorithm/form_arr_sort.c)|
