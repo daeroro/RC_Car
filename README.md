@@ -77,6 +77,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 - [Master](#master)
   - [Sanghoon Lee](#sanghoon-lee)
 - [Member](#member)
+  - [Hyunwoo Park](#hyunwoo-park)
   - [Sangjae Ahn](#sangjae-ahn)
 
 Member - [Hyungju Kim](https://github.com/KOITT2/RC_Car/blob/master/README.md#L113)
@@ -235,7 +236,8 @@ Member - [Hyungju Kim](https://github.com/KOITT2/RC_Car/blob/master/README.md#L1
 |MCU|Gas Pedal Control with Light Sensor|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/Manual%20Acc%20control%20Using%20LightSensor.pdf)|
 |BOM|Final BOM|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EC%9E%A5%EC%84%B1%ED%99%98/%EC%B5%9C%EC%A2%85%20BOM.pdf)|
 
-- Hyunwoo Park:			phw820@naver.com
+### Hyunwoo Park
+### E-mail Address - phw820@naver.com
 
 ![hyunwoo](./member_profile/hyunwoo_profile_1.jpg)
 
