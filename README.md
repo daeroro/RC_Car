@@ -419,6 +419,8 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |STM32F4|Timer Based PWM with STM32F407|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/TIMER%20%26%20PWM%20control%20with%20STM32F407.pdf)|
 |STM32F4|ADC & DAC Control with STM32F407|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/ADC%20with%20DMA%20%26%20DAC.pdf)|
 |STM32F4|I2C Control with STM32F407|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/I2C%20Control%20with%20STM32F407.pdf)|
+|STM32F4|MPU9250 Control with STM32F407|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Control%20MPU9250%20with%20I2C.pdf)|
+|STM32F4|STM32F407 Based MPU9250 Control Code|[link](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MPU9250_TEST.zip)|
 |FreeRTOS|FreeRTOS on STM32F407|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/FreeRTOS%20based%20on%20STM32F407.pdf)|
 |FreeRTOS|All Summation MCU Code|[link](https://github.com/KOITT2/RC_Car/tree/master/mcu_proj/FreeRTOS)|
 |Week Mission|1st Week Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%8C%80%EB%B0%9C%ED%91%9C/9%EC%A3%BC%EC%B0%A8%20%EB%9D%BC%EC%A0%A0%EC%B9%B4%20%EB%B0%9C%ED%91%9C.pdf)|
