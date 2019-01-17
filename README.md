@@ -128,7 +128,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 
 ## Member
 
-- Hyungju Kim:			mihaelkel@naver.com
+- Hyungju Kim:
 
 ![hyungju](./member_profile/hyungju_profile_1.jpg)
 
@@ -161,7 +161,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |BOM|BOM List of Project Board Car|[link](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EA%B9%80%ED%98%95%EC%A3%BC/%EB%B3%B4%EB%93%9C%EC%B9%B4%20BOM.xlsx)|
 |Tools|How to use Epoxy|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/%EC%97%90%ED%8F%AD%EC%8B%9C%20%EC%A0%91%EC%B0%A9%EC%A0%9C%20%EC%82%AC%EC%9A%A9%EB%B2%95.pdf)|
 
-- Sangyong Jung:		fstopdg@gmail.com
+- Sangyong Jung:
 
 ![sangyong](./member_profile/sangyong_profile_1.jpg)
 
@@ -171,7 +171,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |MCU|MCU Core Function Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/MCU%ED%95%A8%EC%88%98%EC%A0%95%EB%A6%AC_%EC%A0%95%EC%83%81%EC%9A%A9.pdf)|
 |Physics|Non-Inertial Frame Dynamics|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Non-inertial_frame_%EC%A0%95%EC%83%81%EC%9A%A9.pdf)|
 
-- Sunghwan Jang:		redmk1025@gmail.com
+- Sunghwan Jang:
 
 ![sunghwan](./member_profile/sunghwan_profile_1.jpg)
 
@@ -229,7 +229,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |BOM|Quadcopter BOM List|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%95%84%EC%9D%B4%EC%96%B8%EB%93%9C%EB%A1%A0/%EB%B0%95%ED%98%84%EC%9A%B0/%EB%93%9C%EB%A1%A0%20%EC%A0%9C%EC%9E%91%EC%97%90%20%ED%95%84%EC%9A%94%ED%95%9C%20%EB%B6%80%ED%92%88%EA%B3%BC%20%EA%B2%AC%EC%A0%81(%2B%EB%AA%A8%ED%84%B0%20%EC%B6%94%EB%A0%A5%2C%20%EB%B9%84%ED%96%89%EC%8B%9C%EA%B0%84%20%EA%B3%84%EC%82%B0).pdf)|
 |Design|Non Inertia Frame|[pdf](https://github.com/KOITT2/RC_Car/blob/master/doc/design/none_inertia_frame.pdf)|
 
-- Siyun Kim:			glgltldbs@naver.com
+- Siyun Kim:
 
 ![siyun](./member_profile/siyun_profile_1.jpg)
 
@@ -260,7 +260,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |FPGA|All Integration without Network and Lidar Motor|[link](https://github.com/KOITT2/RC_Car/tree/master/fpga_proj/all_test_2)|
 |FPGA|Final Integration Project|[link](https://github.com/KOITT2/RC_Car/tree/master/fpga_proj/all_test_7)|
 
-- Hanbyul Jung:			hanbulkr@gmail.com
+- Hanbyul Jung:
 
 ![hanbyul](./member_profile/hanbyul_profile_1.jpg)
 
@@ -286,7 +286,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |FPGA|Verilog Concept Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/verilog%20%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC.pdf)|
 |FPGA|eCAP with SDK|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/eCAP_sdk_%EC%A0%95%ED%95%9C%EB%B3%84.pdf)|
 
-- Daesung Choi:			c3d4s19@naver.com
+- Daesung Choi:
 
 ![daesung](./member_profile/daesung_profile_1.jpg)
 
@@ -297,7 +297,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Control Theory|Root Locus|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/RootLocus.pdf)|
 |Control Theory|PID Controller|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/pid.pdf)|
 
-- Minho Kim:        minking12@naver.com
+- Minho Kim:
 
 ![minho](./member_profile/minho_profile_1.jpg)
 
@@ -316,7 +316,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |MCU|Cortex-R5F Based Lidar Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/lidar%20basic.pdf)|
 |MCU|Cortex-R5F Based ESC Calibration Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/Motor%20option%20%26%20calibration.pdf)|
 
-- Taeyoung Eun:     zero_bird@naver.com
+- Taeyoung Eun:
 
 ![taeyoung](./member_profile/taeyoung_profile_1.jpg)
 
@@ -333,11 +333,11 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |FreeRTOS|FreeRTOS Stream Buffer|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%80%ED%83%9C%EC%98%81/%EC%9D%80%ED%83%9C%EC%98%81%20-%20RTOS_%EC%8A%A4%ED%8A%B8%EB%A6%BC%20%EB%B2%84%ED%8D%BC.pdf)|
 |FreeRTOS|FreeRTOS Message Buffer|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%80%ED%83%9C%EC%98%81/%EC%9D%80%ED%83%9C%EC%98%81%20-%20RTOS_%EB%A9%94%EC%8B%9C%EC%A7%80%20%EB%B2%84%ED%8D%BC.pdf)|
 
-- Wooseok Lee:			colre99@naver.com
+- Wooseok Lee:
 
 ![wooseok](./member_profile/wooseok_profile_1.jpg)
 
-- Hanna Moon:			mhn97@naver.com
+- Hanna Moon:
 
 ![hanna](./member_profile/hanna_profile_1.jpg)
 
@@ -355,7 +355,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Week Mission|4th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%EB%AC%B8%ED%95%9C%EB%82%98/%EB%AC%B8%ED%95%9C%EB%82%98_6%ED%9A%8C%EC%B0%A8%EB%B0%9C%ED%91%9C_0816.pdf)|
 |Week Mission|5th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EC%9C%A0%EC%9E%90%EC%B0%A8/%ED%8C%80%EB%B0%9C%ED%91%9C/%EC%9C%A0%EC%9E%90%EC%B0%A8%20%EC%A0%84%EC%B2%B4%20%EB%B0%9C%ED%91%9C_3.pdf)|
 
-- Hoseong Lee:			hslee00001@naver.com
+- Hoseong Lee:
 
 ![hoseong](./member_profile/hoseong_profile_2.jpg)
 
@@ -372,11 +372,11 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |FPGA|SPI on Petalinux|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/SPI%20-%20petalinux.pdf)|
 |FPGA|I2C MPU6050 Verilog Control|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9D%B4%ED%98%B8%EC%84%B1/i2c%20mpu6050-verilog.pdf)|
 
-- Hyungjun Yu:			love592946@naver.com
+- Hyungjun Yu:
 
 ![hyungjun](./member_profile/hyungjun_profile_1.jpg)
 
-- Jihee Moon:			mjh8127@naver.com
+- Jihee Moon:
 
 ![jihee](./member_profile/jihee_profile_1.jpg)
 
@@ -390,7 +390,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |FPGA|Zynq Zybo PWM IP Creation|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EB%AC%B8%EC%A7%80%ED%9D%AC/ZYBO_PWM_IP_CREATE.pdf)|
 |FPGA & MCU|MPU9250 Comparison with MCU and FPGA|[pdf](https://github.com/KOITT2/RC_Car/blob/master/experiment/doc/%5Bzynq-Vivado%2BPetaLinux%5D%20mpu9250.pdf)|
 
-- Jiwan Yoon:			yoonjw7894@naver.com
+- Jiwan Yoon:
 
 ![jiwan](./member_profile/jiwan_profile_1.jpg)
 
@@ -399,7 +399,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |FreeRTOS|RTOS Example Analaysis & Summary|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%B3%B4%EB%93%9C%EC%B9%B4/%EC%9C%A4%EC%A7%80%EC%99%84/rtos.pdf)|
 
 ### Sangjae Ahn
-### E-mail Address - sangjae2015@naver.com
+### E-mail Address
 
 ![sangjae](./member_profile/sangjae_profile_1.jpg)
 
@@ -435,7 +435,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Circuit|Astable Multivibrator Analysis|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/%EB%B9%84%EC%95%88%EC%A0%95%20%EB%A9%80%ED%8B%B0%EB%B0%94%EC%9D%B4%EB%B8%8C%EB%A0%88%EC%9D%B4%ED%84%B0%20%ED%9A%8C%EB%A1%9C%20%EB%B6%84%EC%84%9D.pdf)|
 |Circuit|Fan Motor Control with Temperature Sensor|[pdf](https://github.com/KOITT2/RC_Car/blob/master/circuit/Control%20fan%20motor%20Circuit.pdf)|
 
-- Soojeong Hwang:		sue100012@naver.com
+- Soojeong Hwang:
 
 ![soojeong](./member_profile/soojeong_profile_1.jpg)
 
@@ -448,7 +448,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Week Mission|4th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/180801_4%EC%B0%A8%EB%B0%9C%ED%91%9C_I2C%26lidar.pdf)|
 |Week Mission|5th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%ED%99%A9%EC%88%98%EC%A0%95/6%EC%B0%A8%20%EB%B0%9C%ED%91%9C_%EC%A0%84%EC%A1%B0%ED%9B%84%EB%AF%B8%EB%93%B1.pdf)|
 
-- Yukyoung Chung:		ucong@naver.com
+- Yukyoung Chung:
 
 ![yukyoung](./member_profile/yukyoung_profile_1.jpg)
 
@@ -463,11 +463,11 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |Week Mission|5th Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180816_6%ED%9A%8C%EC%B0%A8_LCD_Display.pdf)|
 |BOM|BOM List of Project Lazen Car|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%A0%95%EC%9C%A0%EA%B2%BD/180829_%EB%9D%BC%EC%A0%A0%EC%B9%B4_%EB%B6%80%ED%92%88%EA%B5%AC%EB%A7%A4%EB%AA%A9%EB%A1%9D.pdf)|
 
-- Yeonsung Yoon:		Jonordvn@gmail.com
+- Yeonsung Yoon:
 
 ![yeonsung](./member_profile/yeonsung_profile_1.jpg)
 
-- Yoosung Lee:			dbtjd1102@naver.com
+- Yoosung Lee:
 
 ![yoosung](./member_profile/yoosung_profile_1.jpg)
 
@@ -475,7 +475,7 @@ There are some problem to convert sdk-linux-am57xx-evm-04.03.00.05 to 05.00.00.1
 |-|-|-|
 |Week Mission|1st Mission|[pdf](https://github.com/KOITT2/RC_Car/blob/master/cur_present/%EB%9D%BC%EC%A0%A0%EC%B9%B4/%EC%9D%B4%EC%9C%A0%EC%84%B1/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%202%EC%A3%BC%EC%B0%A8(1).pdf)|
 
-- Sungyong Ha:			accept0108@naver.com
+- Sungyong Ha:
 
 ![sungyong](./member_profile/sungyong_profile_1.jpg)
 
